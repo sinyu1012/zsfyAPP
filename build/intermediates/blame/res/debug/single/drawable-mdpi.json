@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

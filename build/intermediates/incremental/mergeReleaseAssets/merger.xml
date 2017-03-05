@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="E:\android2\zhangshangfangyuan\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="main"><source path="E:\android2\zhangshangfangyuan\assets"/><source path="E:\android2\zhangshangfangyuan\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\android2\zhangshangfangyuan\build-types\release\assets"/></dataSet></merger>

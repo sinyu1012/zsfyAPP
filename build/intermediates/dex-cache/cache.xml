@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\bmob_v3.1.1beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b70cca78172af77118481a3f097b542e55e55a6">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\bmob_v3.1.1beta_3b7dcd0ab079608832bea01d63c750bcb619b663.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\bmob_v3.1.1beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b70cca78172af77118481a3f097b542e55e55a6">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\bmob_v3.1.1beta_660930ae03239c20429fb96bf17b5830ccc21374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\androidSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_f44216137a5b4c49ad881fe7e10ae0bd902db517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\jsoup-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="edb0ddf3bd59dec0947f6eda75b6cf2264fc5e4b">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\jsoup-1.9.2_ba8a2384afc14e715802381587f56ec5d3e3a414.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_3edcce128787d2fe84ee3e1ebe1377df3ee68e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_0d853316df4f2859ad48b5de49cd314494da6895.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2_bfc0ad475b352fdc0ae3f7937fb3c554889f13d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_af0aa27a6878392b31cbee87d46890441d981c58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\jsoup-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="edb0ddf3bd59dec0947f6eda75b6cf2264fc5e4b">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\jsoup-1.9.2_7253a598d4c2ca3142e31282e3a547f633aaa42e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\bmob_v3.1.1beta.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3b70cca78172af77118481a3f097b542e55e55a6">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\bmob_v3.1.1beta_c2ca743075ec4dedbb9754c16568b989bc6839a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\commons-logging-1.2_b0c536a3a49a54b0d0283d560cd67189b96a9243.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\commons-logging-1.2_daa7386f15e957281328c47f6c22c1478bdcb1f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\commons-codec-1.9_4868e39064c2d27124286fbf3e751eb250a32550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\commons-codec-1.9_484551ffdeed94b3c3f7a0fb2dde3739da6c0808.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_361f7ce3d56eb030419df6cda974e64295257de5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_27336457eff7fdb8449bd0784972a476029d8759.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\commons-codec-1.9_dba23a4b1201d30c80a510b029db2d3b062bf66f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2_55195392dc1604799e3556a23c742e9fbd3fb093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\httpclient-4.5.2_4554dd732293984229e660a1433c4d7cc3f55d76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_6d6ba6134982e568778a07ae2f04a2442bfe2639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\picasso-2.2.0_83c4c18f3fcc9900d55eefcb046abbd9a67af1a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\picasso-2.2.0_48717ceacce49bc2c40345afd71d88ffb55f4448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2_6c0259ee938f307131273e8967c292bc06f6750e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_e800bdad7bd4fb286d4fa812b4b8756a34605dde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-4.5.2_6aaaeafbe4d5f8b7473192d003769f3abd99fa95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_c80fba9b66b2c4242dbd2496bbafa1fa3861bceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_7edbce64174c9e5fe7ab00f768f5d0daeff6fb99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zsfyAPP-master\libs\jsoup-1.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="edb0ddf3bd59dec0947f6eda75b6cf2264fc5e4b">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\jsoup-1.9.2_67e21677f4da8c8a85e9140471373be28de8d542.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android2\zhangshangfangyuan\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="E:\android2\zhangshangfangyuan\build\intermediates\pre-dexed\debug\picasso-2.2.0_6e64f19ea47c5f3244ea4e992bfdce516a6731c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-4.5.2_750343f4bcda22265e0cf1afc3fb9dfc9540adb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="F:\Google\Download2\zsfyAPP-master\zsfyAPP-master\build\intermediates\pre-dexed\debug\commons-logging-1.2_8439f516455ae4f3690aff94375874d9950c00d2.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\main_head.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\include_action_bar.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_action_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\menu_frame_right.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\menu_frame_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\test.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_library.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_login.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\dialog_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_dangji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_dangji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\activity_yzm.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_yzm.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_settings.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_settings.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_library.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_dj_dati.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_dj_dati.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\dialog_feedback.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog_feedback.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_fountlost.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_fountlost.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\menu_frame_left.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\menu_frame_left.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\list_dangji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\list_dangji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\msgdetail.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\msgdetail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\include_progress.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_progress.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\include_no_data.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_no_data.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\list_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\list_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\content_frame.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\activity_start.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\pop_lost.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pop_lost.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\msg_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\msg_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\pop_device.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pop_device.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_about.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_about.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_lib_search.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_lib_search.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\include_add_top_bar.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_add_top_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\lib_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\lib_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\fragment_blank.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_queryzaocao.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_queryzaocao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_kebiao.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_kebiao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\lib_head.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\lib_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\grid.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_personinfo.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_personinfo.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\dialog.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\message.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\kebiao_shixun.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\kebiao_shixun.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\activity_add.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\item_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_lib_detail.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_lib_detail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\layout_menu.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\myspinner.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\myspinner.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\slidingmenumain.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\release\\layout\\frag_homepage.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_homepage.xml"
+    }
+]

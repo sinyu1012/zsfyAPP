@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\start.jpg",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\drawable-mdpi\\start.jpg"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\start.jpg",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\drawable-mdpi\\start.jpg"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\start.jpg",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable-mdpi\\start.jpg"
+    }
+]

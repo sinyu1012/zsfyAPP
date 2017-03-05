@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:hint="请输入搜索的书名"
+        android:id="@+id/ed_lib_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button 
+        android:text="搜索"
+        android:id="@+id/bt_lib_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        />
+</LinearLayout>

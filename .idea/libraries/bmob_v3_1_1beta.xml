@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bmob_v3.1.1beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/bmob_v3.1.1beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

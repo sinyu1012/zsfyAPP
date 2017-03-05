@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lib_head" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_libdetail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="软件工程"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_libdetail_zuozhename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="作者：方木云编"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="13dp"
+                android:background="#dfdfdf" />
+
+            <TextView
+                android:id="@+id/tv_libdetail_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="出版发行项: 北京:清华大学出版社,2014
+ISBN及定价: 978-7-302-34732-3/CNY48.00 (含光盘)
+ISBN及定价: 978-7-89414-733-2 光盘
+载体形态项: 330页:图;26cm+光盘1片
+丛编项: 软件入门与提高丛书
+"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhaoti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="索书号"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_suoshuhao6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didianti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:text="校区—馆藏地"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_didian6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=" "
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtaiti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:text="书刊状态"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/tv_libdetail_zhuangtai6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

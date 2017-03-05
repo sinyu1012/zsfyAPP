@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" >
+
+    <TextView
+        android:id="@+id/tv_lv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="软件工程"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_lv_nameinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="书名信息：方木云主编 清华大学出版社 2016"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_lv_guancanginfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="馆藏信息：馆藏复本：3可借复本：3"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_lv_suoshuno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="索书号：TP311.5/227"
+        android:textSize="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="#dfdfdf" />
+
+</LinearLayout>

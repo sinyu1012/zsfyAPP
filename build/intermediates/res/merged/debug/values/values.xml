@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ac_background">#f6f5f5</color>
+    <color name="ac_bg_side_nav_actions">#252932</color>
+    <color name="ac_bottom_bar">#3c3c3c</color>
+    <color name="actionBarBg">#6666CC</color>
+    <color name="actionBarText">#EDEDED</color>
+    <color name="base_action_bar_title_color">#ffffff</color>
+    <color name="base_actionbar_bg">#eb4e3d</color>
+    <color name="base_bg">#f4f6f6</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#898989</color>
+    <color name="base_menu_left_bg">#393c44</color>
+    <color name="base_tab_indicator_text_color">#f82c22</color>
+    <color name="bg_comment_list_item">#f6f5f5</color>
+    <color name="bg_comment_list_item_highlight">#ffffff</color>
+    <color name="bg_exhibition_desc">#f3f2ed</color>
+    <color name="black">#000000</color>
+    <color name="blue">#005fff</color>
+    <color name="classIndex">#CCCCCC</color>
+    <color name="color_half_transparent">#b0000000</color>
+    <color name="color_transparent_bg">#80000000</color>
+    <color name="color_transparent_bg1">#e0000000</color>
+    <color name="courseTextColor">#ECECEC</color>
+    <color name="green">#5cbe6c</color>
+    <color name="guide_color">#898989</color>
+    <color name="home_item_color_bg">#f4f6f6</color>
+    <color name="hui">#F5F5F5</color>
+    <color name="hui1">#C9C9C9</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="text_gray">#969696</color>
+    <color name="text_navigation_title">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_blue">#0000CD</color>
+    <color name="transparent_hui">#DCDCDC</color>
+    <color name="transparent_hui1">#BABABA</color>
+    <color name="trend_bottom_bg">#f7f7f7</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr><attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_action_bar_height">48.0dip</dimen>
+    <dimen name="base_edit_height">40.0dip</dimen>
+    <dimen name="list_item_height">120dip</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="weekItemHeight">40dp</dimen>
+    <dimen name="weekItemMarLeft">2dp</dimen>
+    <dimen name="weekItemMarTop">2dp</dimen>
+    <item name="selected_view" type="id"/>
+    <string name="about">关于我们</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">校园助手</string>
+    <string name="chengji">成绩查询</string>
+    <string name="describe_hint">描述</string>
+    <string name="empty"/>
+    <string name="found">招领</string>
+    <string name="fri">周五</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">首页</string>
+    <string name="kebiao">课表查询</string>
+    <string name="library">图书检索</string>
+    <string name="list_no_data_found">暂时还未有招领信息</string>
+    <string name="list_no_data_lost">暂时还未有失物信息</string>
+    <string name="lost">遗失</string>
+    <string name="message_search_hint">搜索…</string>
+    <string name="mon">周一</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="perinfo">个人信息</string>
+    <string name="photo_hint">手机</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string name="progress_loading">正在获取数据..</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="settings">设置</string>
+    <string name="sta">周六</string>
+    <string name="sun">周日</string>
+    <string name="thu">周四</string>
+    <string name="time_error">时间有问题</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_yzm">YzmActivity</string>
+    <string name="title_hint">标题</string>
+    <string name="tue">周二</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="url_server">http://202.119.168.66:8080/test/version.xml</string>
+    <string name="wen">周三</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="MenuPop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/scale_top_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_top_out</item>
+    </style>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/zoomout_right</item>
+        <item name="android:windowExitAnimation">@anim/zoomin_right</item>
+    </style>
+    <style name="Smile">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Smile.ImageView">
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+    <style name="Smile.ImageView.Photo_Large">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Smile.ImageView.Photo_Middle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Smile.ImageView.Photo_Small">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Smile.TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Smile.TextView._Black">
+        <item name="android:textColor">@color/base_color_text_black</item>
+    </style>
+    <style name="Smile.TextView._Gray">
+        <item name="android:textColor">@color/base_color_text_gray</item>
+    </style>
+    <style name="Smile.TextView._Green">
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="Smile.TextView._White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Smile.View_margin">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="sdw_79351b">
+        <item name="android:shadowColor">#ff79351b</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="sdw_white">
+        <item name="android:shadowColor">#7fffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.65</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="text_15_666666_sdw" parent="@style/sdw_white">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="text_15_ffffff_sdw" parent="@style/sdw_79351b">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="text_16_666666">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>

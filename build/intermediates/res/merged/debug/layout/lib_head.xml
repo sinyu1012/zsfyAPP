@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/light_blue" >
+
+    <ImageView
+        android:id="@+id/bt_top_return"
+        android:layout_width="40sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/back" />
+    <TextView
+        android:id="@+id/tv_top_lib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="图书查询"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

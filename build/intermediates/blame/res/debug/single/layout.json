@@ -1,0 +1,590 @@
+[
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_fountlost.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_fountlost.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_homepage.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_homepage.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_personinfo.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_personinfo.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_library.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_library.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_about.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_about.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_right.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\menu_frame_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_action_bar.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\include_action_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\lib_head.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\lib_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\include_progress.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_progress.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\msg_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\msg_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\msgdetail.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\msgdetail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dj_dati.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_dj_dati.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_chengji.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\list_chengji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dangji.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_dangji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\include_add_top_bar.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_add_top_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\pop_lost.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pop_lost.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\msgdetail.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\msgdetail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_homepage.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_homepage.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pop_device.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\pop_device.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\lib_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\lib_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_feedback.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog_feedback.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_left.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\menu_frame_left.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dj_dati.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_dj_dati.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_personinfo.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_personinfo.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\myspinner.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\myspinner.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\pop_device.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pop_device.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_settings.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_settings.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_library.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dangji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_dangji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_chengji.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\list_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\list_dangji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\list_dangji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_settings.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_settings.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_kebiao.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_kebiao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_right.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\menu_frame_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_dangji.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\list_dangji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yzm.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_yzm.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_search.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_lib_search.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_queryzaocao.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_queryzaocao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_feedback.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\dialog_feedback.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_queryzaocao.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_queryzaocao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_queryzaocao.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_queryzaocao.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_chengji.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\dialog_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\include_action_bar.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_action_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_left.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\menu_frame_left.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\myspinner.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\myspinner.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\kebiao_shixun.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\kebiao_shixun.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_detail.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_lib_detail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_action_bar.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\include_action_bar.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_chengji.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_left.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\menu_frame_left.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_homepage.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_homepage.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_about.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_about.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\lib_list.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\lib_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yzm.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\activity_yzm.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pop_device.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\pop_device.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pop_lost.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\pop_lost.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_library.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_progress.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\include_progress.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_search.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_lib_search.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_fountlost.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_fountlost.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yzm.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\activity_yzm.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_dangji.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\list_dangji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\kebiao_shixun.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\kebiao_shixun.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_chengji.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\dialog_chengji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_no_data.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\include_no_data.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_library.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_chengji.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_chengji.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_feedback.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\dialog_feedback.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_library.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\frag_library.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_detail.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_lib_detail.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\msg_list.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\msg_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\msgdetail.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\msgdetail.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_fountlost.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_fountlost.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\lib_head.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\lib_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\include_no_data.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\include_no_data.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\grid.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_about.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_about.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_progress.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\include_progress.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dangji.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\layout_dangji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\grid.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\myspinner.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\myspinner.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\item_list.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_personinfo.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_personinfo.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dj_dati.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_dj_dati.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\msg_list.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\msg_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\lib_head.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\lib_head.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_add_top_bar.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\include_add_top_bar.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pop_lost.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\pop_lost.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_search.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_lib_search.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\grid.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\layout_menu.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_add_top_bar.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\include_add_top_bar.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\pull_to_refresh.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_kebiao.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_kebiao.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_settings.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_settings.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_lib_detail.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_lib_detail.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\kebiao_shixun.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\kebiao_shixun.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\include_no_data.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\include_no_data.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\lib_list.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\lib_list.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\list_chengji.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\list_chengji.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\frag_kebiao.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\frag_kebiao.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame_right.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\menu_frame_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\layout\\layout_library.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\layout\\layout_library.xml"
+    }
+]

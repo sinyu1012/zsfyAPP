@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_out.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\anim\\scale_top_out.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_in.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\anim\\scale_top_in.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout_right.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\anim\\zoomout_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout_right.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\anim\\zoomout_right.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin_right.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\anim\\zoomin_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin_right.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\anim\\zoomin_right.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout_right.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\anim\\zoomout_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin_right.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\anim\\zoomin_right.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_in.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\anim\\scale_top_in.xml"
+    },
+    {
+        "merged": "E:\\android2\\zhangshangfangyuan\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_out.xml",
+        "source": "E:\\android2\\zhangshangfangyuan\\res\\anim\\scale_top_out.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_in.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\anim\\scale_top_in.xml"
+    },
+    {
+        "merged": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_out.xml",
+        "source": "F:\\Google\\Download2\\zsfyAPP-master\\zsfyAPP-master\\res\\anim\\scale_top_out.xml"
+    }
+]

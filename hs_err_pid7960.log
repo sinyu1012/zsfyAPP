@@ -1,0 +1,132 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:126), pid=7960, tid=864
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (8.0_31-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.31-b07 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000029ce000):  JavaThread "Unknown thread" [_thread_in_vm, id=864, stack(0x00000000029d0000,0x0000000002ad0000)]
+
+Stack: [0x00000000029d0000,0x0000000002ad0000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x3169ba]
+V  [jvm.dll+0x2674c3]
+V  [jvm.dll+0x268103]
+V  [jvm.dll+0x25f876]
+V  [jvm.dll+0x5e443]
+V  [jvm.dll+0x5e533]
+V  [jvm.dll+0x72e9a]
+V  [jvm.dll+0x73208]
+V  [jvm.dll+0xe4997]
+V  [jvm.dll+0xe4d26]
+V  [jvm.dll+0x1fa057]
+V  [jvm.dll+0x22b694]
+V  [jvm.dll+0x14d8c1]
+C  [javaw.exe+0x20c6]
+C  [javaw.exe+0xc9eb]
+C  [javaw.exe+0xca7f]
+C  [KERNEL32.DLL+0x12d92]
+C  [ntdll.dll+0x9f64]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000029ce000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=864, stack(0x00000000029d0000,0x0000000002ad0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.020 loading class java/lang/CharSequence done
+Event: 0.020 loading class java/lang/String done
+Event: 0.020 loading class java/lang/Class
+Event: 0.020 loading class java/lang/reflect/AnnotatedElement
+Event: 0.020 loading class java/lang/reflect/AnnotatedElement done
+Event: 0.020 loading class java/lang/reflect/GenericDeclaration
+Event: 0.021 loading class java/lang/reflect/GenericDeclaration done
+Event: 0.021 loading class java/lang/reflect/Type
+Event: 0.021 loading class java/lang/reflect/Type done
+Event: 0.021 loading class java/lang/Class done
+
+
+Dynamic libraries:
+0x00007ff6aabf0000 - 0x00007ff6aac24000 	C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe
+0x00007ff80c2e0000 - 0x00007ff80c4a2000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff80bd30000 - 0x00007ff80bddd000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ff8097d0000 - 0x00007ff8099ad000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ff80bf30000 - 0x00007ff80bfd6000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ff80b9b0000 - 0x00007ff80ba4d000 	C:\Windows\system32\msvcrt.dll
+0x00007ff809be0000 - 0x00007ff809c3b000 	C:\Windows\system32\sechost.dll
+0x00007ff80ba50000 - 0x00007ff80bb76000 	C:\Windows\system32\RPCRT4.dll
+0x00007ff80c060000 - 0x00007ff80c1ae000 	C:\Windows\system32\USER32.dll
+0x00007ff80b590000 - 0x00007ff80b715000 	C:\Windows\system32\GDI32.dll
+0x00007ffffe620000 - 0x00007ffffe894000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10240.16384_none_f41f7b285750ef43\COMCTL32.dll
+0x00007ff80b4f0000 - 0x00007ff80b526000 	C:\Windows\system32\IMM32.DLL
+0x00007ff80b790000 - 0x00007ff80b8ec000 	C:\Windows\system32\MSCTF.dll
+0x000000006b8d0000 - 0x000000006b9a2000 	C:\Program Files\Java\jre1.8.0_31\bin\msvcr100.dll
+0x000000006bcf0000 - 0x000000006c54a000 	C:\Program Files\Java\jre1.8.0_31\bin\server\jvm.dll
+0x00007ff80c1b0000 - 0x00007ff80c1b8000 	C:\Windows\system32\PSAPI.DLL
+0x00007ff807130000 - 0x00007ff807153000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffffe250000 - 0x00007ffffe259000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff80b720000 - 0x00007ff80b789000 	C:\Windows\system32\WS2_32.dll
+0x00007ff80bfe0000 - 0x00007ff80bfe8000 	C:\Windows\system32\NSI.dll
+0x00007ff807100000 - 0x00007ff80712c000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ff808e60000 - 0x00007ff808ea4000 	C:\Windows\system32\cfgmgr32.dll
+0x00007ff807680000 - 0x00007ff8076a7000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x000000006d5b0000 - 0x000000006d5bf000 	C:\Program Files\Java\jre1.8.0_31\bin\verify.dll
+0x000000006d580000 - 0x000000006d5a8000 	C:\Program Files\Java\jre1.8.0_31\bin\java.dll
+0x000000006d560000 - 0x000000006d576000 	C:\Program Files\Java\jre1.8.0_31\bin\zip.dll
+0x00007ffffc020000 - 0x00007ffffc1aa000 	C:\Windows\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\platforms\android-19\android.jar;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis_x86-google-19\libs\usb.jar;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis_x86-google-19\libs\effects.jar;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis_x86-google-19\libs\maps.jar 
+java_command: com.fyzs.Http.MessageHttp
+java_class_path (initial): E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\httpclient-cache-4.5.2.jar;E:\安卓文件纺院\纺院6\slidingmenu_library\libs\android-support-v4.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\httpclient-win-4.5.2.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\commons-codec-1.9.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\jsoup-1.9.2.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\commons-logging-1.2.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\libs\httpclient-4.5.2.jar;E:\安卓文件纺院\纺院6\slidingmenu_library\bin\slidingmenu_library.jar;E:\安卓文件纺院\纺院6\zhangshangfangyuan\bin\classes
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jre1.8.0_31
+CLASSPATH=.;C:\Program Files\Java\jre1.8.0_31\lib\rt.jar
+PATH=C:/Program Files/Java/jre1.8.0_31/bin/server;C:/Program Files/Java/jre1.8.0_31/bin;C:/Program Files/Java/jre1.8.0_31/lib/amd64;E:\Python27;E:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\tomcat\apache-tomcat-7.0.65\lib;E:\tomcat\apache-tomcat-7.0.65\bin;C:\Program Files\Java\jre1.8.0_31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;E:\Program Files\Microsoft SQL Server\120\DTS\Binn\;E:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;E:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;E:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;E:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;E:\Program Files\Microsoft SQL Server\110\Tools\Binn\;G:\mysql-5.6.24-winx64\bin;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\platforms;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\tools;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\sinyu\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\sinyu\AppData\Local\Programs\Python\Python35\;E:\Program Files\Tesseract-OCR;F:\UC下载\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\eclipse;
+USERNAME=sinyu
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 8302956k(3863180k free), swap 9482604k(1913732k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.31-b07) for windows-amd64 JRE (1.8.0_31-b13), built on Dec 17 2014 21:00:28 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Aug 16 14:27:17 2016
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
