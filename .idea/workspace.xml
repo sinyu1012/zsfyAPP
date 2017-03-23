@@ -35,514 +35,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56e0a3be-bda5-4965-91bd-195a39fcd43b" name="Default" comment="0305">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/GDTUnionSDK.4.9.543.min.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/deletepassword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/list_numbered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/user_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GDTUnionSDK_4_9_543_min.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy_android_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_splash2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/list_daka.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/czfy/zsfy/SplashActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/HttpPostConn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/tool/ZaocaoInfo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/release/com/czfy/zsfy/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/generated/source/r/release/com/czfy/zsfy/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/drawable-mdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/multi/drawable-mdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/multi/values-w820dp-v13.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/anim.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-hdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-mdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-xhdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable-xxhdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/layout.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/release/single/menu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/AddActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/AddActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/AddActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/AddActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/AddActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/BaseActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/MainFoundActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/SplashActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/SplashActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/adapter/BaseAdapterHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/adapter/BaseQuickAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/adapter/QuickAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/base/BasePopupWindow$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/base/BasePopupWindow$onSubmitClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/base/BasePopupWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/base/EditPopupWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/bean/Found.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/bean/Lost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/config/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/bmob/lostfound/i/IPopupItemClick.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/czfy/zsfy/YzmActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/BasicInfoHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/CookieHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/DJKnowledgeHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/FZVipHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/FeedbackHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/FoundLost.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/JwxtHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/MessageHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/QueryzaocaoHttp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/SetUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/TeacherLogin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/Http/UpdateCJ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DJDatiActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DangjiActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DangjiActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DangjiActivity$myAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DangjiActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DetailBookActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/DetailBookActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity$myAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibraryActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibrarySearchActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibrarySearchActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibrarySearchActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LibrarySearchActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity$CheckVersionTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MessageActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MessageActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MessageActivity$myAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MessageActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MsgDetailActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/MsgDetailActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/QueryzaocaoActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/QueryzaocaoActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/QueryzaocaoActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/QueryzaocaoActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/QueryzaocaoActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/StartActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/StartActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/StartActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/StartActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/activity/StreamTools.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/Chengji.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/DJKnowledgeData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/Kebiao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/StudentDBOpenhelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/database/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/AboutFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/AboutFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/AboutFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$3$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment$myAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/ChengjiFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$MyAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment$ViewHoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/HomeFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment$myAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/KebiaoFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LeftFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/LibraryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment$CheckVersionTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/MySettingsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$3$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment$CheckVersionTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/fragment/PerInfoFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/BookData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/ChengjiDialog$Builder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/ChengjiDialog$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/ChengjiDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/CustomDialog$Builder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/CustomDialog$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/CustomDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/DateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/DownLoadManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/FeedbackDialog$Builder$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/FeedbackDialog$Builder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/FeedbackDialog$Builder$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/FeedbackDialog$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/FeedbackDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/IOUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/ListadapterChengji.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/MyAPP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/MyConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/RefreshableView$HideHeaderTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/RefreshableView$PullToRefreshListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/RefreshableView$RefreshingTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/RefreshableView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/SaveBookData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/SearchBook.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/UpdataInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/tool/UpdataInfoParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/fyzs/view/CircleImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$OnPageChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$SimpleOnPageChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnCloseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnClosedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnOpenListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnOpenedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/release/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/aidl/android/support/v4/app/INotificationSideChannel.aidl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental-safeguard/release/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageRelease/zip-cache/J8jR9GZvZYufrc63YVqUHFKRqeE=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageRelease/zip-cache/xIdDwQ2RdXDQPogjfypvIgLVEBg=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_0d853316df4f2859ad48b5de49cd314494da6895.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_7edbce64174c9e5fe7ab00f768f5d0daeff6fb99.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_f44216137a5b4c49ad881fe7e10ae0bd902db517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/bmob_v3.1.1beta_660930ae03239c20429fb96bf17b5830ccc21374.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.android.support-support-v4-21.0.3_c80fba9b66b2c4242dbd2496bbafa1fa3861bceb.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/commons-codec-1.9_484551ffdeed94b3c3f7a0fb2dde3739da6c0808.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/commons-logging-1.2_daa7386f15e957281328c47f6c22c1478bdcb1f3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/httpclient-4.5.2_4554dd732293984229e660a1433c4d7cc3f55d76.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/httpclient-cache-4.5.2_af0aa27a6878392b31cbee87d46890441d981c58.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/httpclient-win-4.5.2_bfc0ad475b352fdc0ae3f7937fb3c554889f13d7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/internal_impl-21.0.3_3edcce128787d2fe84ee3e1ebe1377df3ee68e1f.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/jsoup-1.9.2_ba8a2384afc14e715802381587f56ec5d3e3a414.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/picasso-2.2.0_6e64f19ea47c5f3244ea4e992bfdce516a6731c0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/release_da0c6b30c805eedb43ee31b9662cc966b85e692c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/support-annotations-21.0.3_f44216137a5b4c49ad881fe7e10ae0bd902db517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/boy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/girl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/anim/scale_top_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/anim/scale_top_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/anim/zoomin_right.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/anim/zoomout_right.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/biz_news_local_weather_bg_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/boy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/girl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/login_image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/shouye.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi-v4/wwj_748.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/base_horizontal_line.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/base_pop_bg_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/base_pop_bg_p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/bitmap_book_read_chapterlist_repeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/biz_pc_account_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_add_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_add_p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_arrow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_arrow_p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_back_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_back_p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_true_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/btn_true_p.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/changfang.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/czfy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/d_operate_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/d_operate_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/d_operate_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/device_pop_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/eye.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/four.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/ic_shelf_category_divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/ic_top_bar_category.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/icon_photo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/icon_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/input.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/input_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/newmessage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/one.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/rerun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/splash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/three.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/two.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-hdpi/tx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-mdpi-v4/start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/base_pop_bg_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/bg_bombbox.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/bg_edittext_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_add_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_arrow_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_back_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_cancel.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_cancel_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_cancel_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_login_hui_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_login_ok_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_ok_normal.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_ok_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_ok_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/btn_true_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/chengji_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_info_blue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_info_green.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_info_light_grey.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_info_red.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_info_yellow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_table_last_colum.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/course_text_view_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/czfylib.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/czfylib1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/daka.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/dialog_bottom_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/edittext_focused.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/edittext_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/foundlost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/home_czfy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/kebiao_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/knowledge_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/layout_selecter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/library_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/perback.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/person_home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/start2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/teamlogo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/drawable/thinfo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/activity_add.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/activity_splash.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/activity_start.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/activity_yzm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/content_frame.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/dialog_chengji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/dialog_feedback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_chengji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_homepage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_kebiao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_library.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/frag_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/fragment_blank.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/grid.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/include_action_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/include_add_top_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/include_no_data.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/include_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/item_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/kebiao_shixun.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_dangji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_dj_dati.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_fountlost.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_lib_detail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_lib_search.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_library.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_personinfo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/layout_queryzaocao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/lib_head.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/lib_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/list_chengji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/list_dangji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/main_head.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/menu_frame_left.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/menu_frame_right.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/msg_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/msgdetail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/myspinner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/pop_device.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/pop_lost.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/pull_to_refresh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/slidingmenumain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/layout/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-release.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/symbols/release/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/apk/zhangshangfangyuan-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/boy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/girl.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-21.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-21.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/AddActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/AddActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/SplashActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/SplashActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/base/EditPopupWindow.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/base/EditPopupWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$anim.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$attr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$color.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$dimen.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$dimen.class" />
+    <list default="true" id="56e0a3be-bda5-4965-91bd-195a39fcd43b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/advertisement.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$layout.class" />
@@ -550,230 +44,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/BasicInfoHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/BasicInfoHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/CookieHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/CookieHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/DJKnowledgeHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/DJKnowledgeHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/FeedbackHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/FeedbackHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/FoundLost.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/FoundLost.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/JwxtHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/JwxtHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/MessageHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/MessageHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/QueryzaocaoHttp.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/QueryzaocaoHttp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/SetUser.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/SetUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/TeacherLogin.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/TeacherLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/UpdateCJ.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/Http/UpdateCJ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DetailBookActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DetailBookActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$CheckVersionTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$CheckVersionTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MsgDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MsgDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$myAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$MyAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$4$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$6$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$myAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LeftFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LeftFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment$CheckVersionTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment$CheckVersionTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$CheckVersionTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$CheckVersionTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ChengjiDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ChengjiDialog$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/CustomDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/CustomDialog$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/FeedbackDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/FeedbackDialog$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/IOUtils.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/IOUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ListadapterChengji.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ListadapterChengji.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/RefreshableView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/RefreshableView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/view/CircleImageView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/view/CircleImageView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/NbWQmEzKS2w7Sl50MijC8b9OeEo=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/NbWQmEzKS2w7Sl50MijC8b9OeEo=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/sO4WUUphrht81KyBiPuzIoN7gZw=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/sO4WUUphrht81KyBiPuzIoN7gZw=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/bmob_v3.1.1beta_c2ca743075ec4dedbb9754c16568b989bc6839a8.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/bmob_v3.1.1beta_c2ca743075ec4dedbb9754c16568b989bc6839a8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-codec-1.9_4868e39064c2d27124286fbf3e751eb250a32550.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-codec-1.9_4868e39064c2d27124286fbf3e751eb250a32550.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-logging-1.2_b0c536a3a49a54b0d0283d560cd67189b96a9243.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-logging-1.2_b0c536a3a49a54b0d0283d560cd67189b96a9243.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_47e80cce8f704b4e08c21a8a9791dd5df2de7e11.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_47e80cce8f704b4e08c21a8a9791dd5df2de7e11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-4.5.2_6aaaeafbe4d5f8b7473192d003769f3abd99fa95.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-4.5.2_6aaaeafbe4d5f8b7473192d003769f3abd99fa95.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-cache-4.5.2_6d6ba6134982e568778a07ae2f04a2442bfe2639.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-cache-4.5.2_6d6ba6134982e568778a07ae2f04a2442bfe2639.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-win-4.5.2_6c0259ee938f307131273e8967c292bc06f6750e.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-win-4.5.2_6c0259ee938f307131273e8967c292bc06f6750e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jsoup-1.9.2_67e21677f4da8c8a85e9140471373be28de8d542.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jsoup-1.9.2_67e21677f4da8c8a85e9140471373be28de8d542.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/picasso-2.2.0_48717ceacce49bc2c40345afd71d88ffb55f4448.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/picasso-2.2.0_48717ceacce49bc2c40345afd71d88ffb55f4448.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/biz_pc_account_line.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/biz_pc_account_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_add_n.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_add_n.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_add_p.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_add_p.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_arrow_n.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_arrow_n.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_arrow_p.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_arrow_p.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_back_n.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_back_n.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_back_p.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_back_p.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_true_n.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_true_n.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_true_p.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_true_p.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/changfang.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/changfang.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_delete.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_edit.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_line.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/d_operate_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/delete.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/eye.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/eye.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/four.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/four.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ic_top_bar_category.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ic_top_bar_category.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/icon_photo.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/icon_photo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/icon_search.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/icon_search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/message.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/message.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/newmessage.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/newmessage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/one.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/one.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/rerun.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/rerun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/three.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/three.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/two.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/two.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/tx.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/tx.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/arrow.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/back.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/chengji_icon.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/chengji_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/daka.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/daka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/foundlost.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/foundlost.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/kebiao_icon.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/kebiao_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/knowledge_icon.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/knowledge_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/library_icon.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/library_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/person_home.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/person_home.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/search.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/zsfyAPP-master-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/zsfyAPP-master-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/czfy/zsfy/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/czfy/zsfy/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_start.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/frag_homepage.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/frag_homepage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_login.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_personinfo.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_personinfo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_queryzaocao.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_queryzaocao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_start.xml" afterPath="$PROJECT_DIR$/res/layout/activity_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/frag_homepage.xml" afterPath="$PROJECT_DIR$/res/layout/frag_homepage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/layout_login.xml" afterPath="$PROJECT_DIR$/res/layout/layout_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/layout_personinfo.xml" afterPath="$PROJECT_DIR$/res/layout/layout_personinfo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" afterPath="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/czfy/zsfy/YzmActivity.java" afterPath="$PROJECT_DIR$/src/com/czfy/zsfy/YzmActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/BasicInfoHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/BasicInfoHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/CookieHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/CookieHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/DJKnowledgeHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/DJKnowledgeHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/FeedbackHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/FeedbackHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/FoundLost.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/FoundLost.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/JwxtHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/JwxtHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/MessageHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/MessageHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/QueryzaocaoHttp.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/QueryzaocaoHttp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/SetUser.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/SetUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/TeacherLogin.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/TeacherLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/Http/UpdateCJ.java" afterPath="$PROJECT_DIR$/src/com/fyzs/Http/UpdateCJ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/LibrarySearchActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/LibrarySearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/fragment/KebiaoFragment.java" afterPath="$PROJECT_DIR$/src/com/fyzs/fragment/KebiaoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" afterPath="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/tool/IOUtils.java" afterPath="$PROJECT_DIR$/src/com/fyzs/tool/IOUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" afterPath="$PROJECT_DIR$/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zsfyAPP-master.iml" afterPath="$PROJECT_DIR$/zsfyAPP-master.iml" />
     </list>
     <ignored path="zsfyAPP-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -821,11 +113,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetPerinfoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetPerinfoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            <state relative-caret-position="-298">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_queryzaocao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/layout_queryzaocao.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -833,14 +138,14 @@
       </file>
       <file leaf-file-name="activity_set_perinfo.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_set_perinfo.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
+            <state relative-caret-position="226">
               <caret line="105" column="39" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="39" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1980,7 +1285,6 @@
         <option value="$PROJECT_DIR$/src/com/fyzs/tool/ZaocaoInfo.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/list_daka.xml" />
-        <option value="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" />
         <option value="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v23/values-v23.xml" />
         <option value="$PROJECT_DIR$/proguard-project.txt" />
         <option value="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" />
@@ -2007,6 +1311,7 @@
         <option value="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/Http/FZVipHttp.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" />
       </list>
     </option>
   </component>
@@ -2041,10 +1346,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2066,6 +1367,20 @@
               <option name="myItemId" value="zsfyAPP-master" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2075,8 +1390,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2114,9 +1433,9 @@
       <recent name="com.czfy.zsfy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\android2\zsfyAPP-master\res\drawable" />
       <recent name="E:\android2\zsfyAPP-master" />
       <recent name="E:\android2\zsfyAPP-master\src\support" />
-      <recent name="E:\android2\zsfyAPP-master\res\drawable" />
       <recent name="E:\android2\zsfyAPP-master\src\com\czfy\zsfy" />
       <recent name="E:\android2\zsfyAPP-master\libs" />
     </key>
@@ -2546,7 +1865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488701720282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0323">
+      <created>1490232981803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490232981803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2558,8 +1884,9 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46061644" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047945205" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29623288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2581,7 +1908,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2598,7 +1924,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0305" />
-    <option name="LAST_COMMIT_MESSAGE" value="0305" />
+    <MESSAGE value="0323" />
+    <option name="LAST_COMMIT_MESSAGE" value="0323" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2693,23 +2020,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/list_daka.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/layout_queryzaocao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proguard-project.txt">
@@ -2720,13 +2037,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/menu_frame_left.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/MySettingsFragment.java">
@@ -2751,13 +2068,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main_head.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java">
@@ -2937,13 +2254,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/layout_personinfo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="192" column="50" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="50" />
+          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fyzs/Http/HttpPostConn.java">
@@ -2969,20 +2287,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_set_perinfo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
+        <state relative-caret-position="226">
           <caret line="105" column="39" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="39" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="-298">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_queryzaocao.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>

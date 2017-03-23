@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable/advertisement.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/drawable/list_numbered.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/drawable/right_arrow.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/drawable/user_list.png" charset="UTF-8" />
