@@ -8,14 +8,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,6 +38,7 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -65,7 +63,7 @@ public class LoginActivity extends Activity {
 	// private Spinner sp;
 	private List<String> list = new ArrayList<String>();
 	private ArrayAdapter<String> adapter;
-	private ImageView eye;
+	private ImageView eye,delpass;
 	private int e = 0;
 	private ProgressDialog pd;
 	private StudentDao dao;
@@ -131,6 +129,7 @@ public class LoginActivity extends Activity {
 		});
 		// sp = (Spinner) findViewById(R.id.sp);
 		eye = (ImageView) findViewById(R.id.eye);
+		delpass= (ImageView) findViewById(R.id.delpass);
 		tv_login_about = (TextView) findViewById(R.id.tv_login_about);
 		tv_login_about.setOnClickListener(new OnClickListener() {
 
@@ -170,6 +169,12 @@ public class LoginActivity extends Activity {
 					e = 0;
 				}
 
+			}
+		});
+		delpass.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				et_pwd.setText("");
 			}
 		});
 		readSavedData();
@@ -214,7 +219,7 @@ public class LoginActivity extends Activity {
 		final String xh = et_xh.getText().toString().trim();
 		final String pwd = et_pwd.getText().toString().trim();
 		if (TextUtils.isEmpty(xh) || TextUtils.isEmpty(pwd)) {
-			Toast.makeText(this, "账号或者密码不能为空",0).show();
+			Toast.makeText(this, "账号或者密码不能为空",Toast.LENGTH_SHORT).show();
 			return;
 		}
 

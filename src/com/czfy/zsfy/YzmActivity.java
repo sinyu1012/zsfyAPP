@@ -154,6 +154,7 @@ public class YzmActivity extends Activity {
             } else if (msg.what == 0) {
                 pd.dismiss();// 关闭ProgressDialog
                 showToastInAnyThread("密码错误或验证码错误请重试");
+                finish();
             } else if (msg.what == 2) {
                 pd.dismiss();// 关闭ProgressDialog
                 showToastInAnyThread("服务器拥挤请稍后重试");
@@ -276,6 +277,6 @@ public class YzmActivity extends Activity {
         SharedPreferences sp = this.getSharedPreferences("StuData", 0);
         SetUser.AddUser(sp.getString("xh", ""), sp.getString("name", ""),
                 sp.getString("pwd", ""), sp.getString("banji", ""),
-                sp.getString("xibu", "")+loginType, sp.getString("sex", ""), time + "新版大更新2.0");
+                sp.getString("xibu", "")+loginType, sp.getString("sex", ""), time + "新版大更新2.1");
     }
 }

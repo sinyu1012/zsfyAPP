@@ -10,6 +10,7 @@ import com.fyzs.Http.FeedbackHttp;
 import com.fyzs.Http.JwxtHttp;
 import com.fyzs.activity.LoginActivity;
 import com.fyzs.activity.MainActivity;
+import com.fyzs.activity.SetPerinfoActivity;
 import com.fyzs.fragment.MySettingsFragment.CheckVersionTask;
 import com.fyzs.tool.DownLoadManager;
 import com.fyzs.tool.MyConstants;
@@ -17,6 +18,7 @@ import com.fyzs.tool.UpdataInfo;
 import com.fyzs.tool.UpdataInfoParser;
 import com.fyzs.view.CircleImageView;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -26,7 +28,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.graphics.AvoidXfermode.Mode;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -47,7 +48,7 @@ import android.widget.Toast;
  * @author sinyu
  * @description 今日
  */
-public class PerInfoFragment extends Fragment {
+public class PerInfoFragment extends Fragment implements OnClickListener {
 	private final String TAG = this.getClass().getName();
 	private final int UPDATA_NONEED = 0;
 	private final int UPDATA_CLIENT = 1;
@@ -65,7 +66,7 @@ public class PerInfoFragment extends Fragment {
 	private LinearLayout bt_jc;
 	private TextView per_corx;
 	private TextView per_xorz;
-	
+	private LinearLayout lv_setperinfo;
 	private CircleImageView cv;
 	private SharedPreferences sp;
 	private ProgressDialog pd;
@@ -87,6 +88,7 @@ public class PerInfoFragment extends Fragment {
 		sp=getActivity().getSharedPreferences(MyConstants.FIRST, 0);
 		return view;
 	}
+	@SuppressLint("WrongViewCast")
 	private void findViews(View view) {
 		cv=(CircleImageView) view.findViewById(R.id.profile_image1);
 		tx_name=(TextView) view.findViewById(R.id.tx_name);
@@ -97,6 +99,8 @@ public class PerInfoFragment extends Fragment {
 		bt_zx=(LinearLayout) view.findViewById(R.id.tv_per_zx);
 		bt_jc=(LinearLayout) view.findViewById(R.id.tx_getVersion);
 		tx_feedback=(LinearLayout) view.findViewById(R.id.tx_feedback);
+		lv_setperinfo= (LinearLayout) view.findViewById(R.id.lv_setperinfo);
+		lv_setperinfo.setOnClickListener(this);
 		
 		SharedPreferences sp1 = PerInfoFragment.this.getActivity().getSharedPreferences(
 				"StuData", 0);
@@ -210,6 +214,15 @@ public class PerInfoFragment extends Fragment {
 		PackageInfo packInfo = packageManager.getPackageInfo(PerInfoFragment.this.getActivity().getPackageName(),
 				0);
 		return packInfo.versionName;
+	}
+
+	@Override
+	public void onClick(View view) {
+		switch (view.getId()){
+			case R.id.lv_setperinfo:
+				startActivity(new Intent(this.getActivity(), SetPerinfoActivity.class));
+				break;
+		}
 	}
 
 	public class CheckVersionTask implements Runnable {

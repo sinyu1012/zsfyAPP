@@ -190,7 +190,7 @@ public class MainActivity extends SlidingFragmentActivity implements
 									.setContentTitle("有新的消息")
 									.setContentText(json.getString("title"))
 									.setWhen(System.currentTimeMillis())
-									.setSmallIcon(R.drawable.small)
+									.setSmallIcon(R.drawable.czfy)
 									.setLargeIcon(BitmapFactory.decodeResource(getResources(),R.drawable.czfy))
 									.setContentIntent(pi)
 									.setAutoCancel(true)

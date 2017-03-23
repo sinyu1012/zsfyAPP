@@ -33,6 +33,7 @@ public class LibrarySearchActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_lib_search);
 		ed_search = (EditText) findViewById(R.id.ed_lib_search);
+
 	}
 
 	public void search(View v) {
@@ -83,4 +84,6 @@ public class LibrarySearchActivity extends Activity {
 			}
 		});
 	}
+
+
 }

@@ -32,8 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/bg_edittext_selector"
-        android:hint="用户名"
-        android:text="2014491022" />
+        android:hint="学号" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,10 +45,18 @@
             android:layout_height="40dp"
             android:layout_weight="5"
             android:background="@drawable/bg_edittext_selector"
-            android:hint="密码"
-            android:inputType="textPassword"
-            android:text="320924199604282914" />
-
+            android:hint="密码（默认身份证号）"
+            android:inputType="textPassword" />
+        <ImageView
+            android:id="@+id/delpass"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/eye"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="23dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/deletepassword" />
         <ImageView
             android:id="@+id/eye"
             android:layout_width="20dp"

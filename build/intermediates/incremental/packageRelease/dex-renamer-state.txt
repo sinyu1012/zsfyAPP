@@ -1,4 +1,0 @@
-#Thu Feb 23 08:21:31 CST 2017
-base.0=E\:\\android2\\zhangshangfangyuan\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=E\:\\android2\\zhangshangfangyuan\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -72,7 +72,7 @@ public class HomeFragment extends Fragment {
 		String type = sp.getString("logintype", "学生");
 		System.out.println(type);
 		if (type.equals("教师")) {
-			name.setText(" " + sp.getString("name", "") + "老师，您好!");
+			name.setText(" " + sp.getString("name", "") + "，您好!");
 		}
 
 		String xh = sp.getString("xh", "");

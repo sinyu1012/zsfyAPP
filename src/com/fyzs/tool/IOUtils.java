@@ -162,13 +162,13 @@ public class IOUtils {
 			IOException {
 		CloseableHttpClient client = HttpClients.createDefault();
 		HttpGet getViewState = new HttpGet(url);
-		getViewState.setHeader("Cookie", cookie);
-		getViewState.setHeader("Referer", referer);// 设置头信息
-		String s = IOUtils.getHtml(client.execute(getViewState).getEntity()
-				.getContent(), "GB2312");
-		String viewstate = Jsoup.parse(s).select("input[name=__VIEWSTATE]")
-				.val();
-		client.close();
-		return viewstate;
+//		getViewState.setHeader("Cookie", cookie);
+//		getViewState.setHeader("Referer", referer);// 设置头信息
+//		String s = IOUtils.getHtml(client.execute(getViewState).getEntity()
+//				.getContent(), "GB2312");
+//	String viewstate = Jsoup.parse(s).select("input[name=__VIEWSTATE]")
+//			.val();
+//		client.close();
+		return "";
 	}
 }

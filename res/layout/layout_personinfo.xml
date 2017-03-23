@@ -76,7 +76,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:text="姓名:"
                             android:textSize="18dp" />
 
@@ -89,7 +90,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:id="@+id/per_corx"
                             android:text="班级:"
                             android:textSize="18dp" />
@@ -103,7 +105,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:id="@+id/per_xorz"
                             android:text="学号:"
                             android:textSize="18dp" />
@@ -125,7 +128,8 @@
                             android:id="@+id/tx_name"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:text="沈新宇"
                             android:textSize="18dp" />
 
@@ -139,7 +143,8 @@
                             android:id="@+id/tx_class"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="18dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:text="软件1431"
                             android:textSize="18dp" />
 
@@ -153,7 +158,8 @@
                             android:id="@+id/tx_xh"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
                             android:text="2014491022"
                             android:textSize="18dp" />
                     </LinearLayout>
@@ -183,7 +189,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/lv_setperinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_selecter"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="编辑资料"
+                        android:textColor="#8470FF"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#dfdfdf" />
                 <LinearLayout
                     android:id="@+id/tx_getVersion"
                     android:layout_width="match_parent"

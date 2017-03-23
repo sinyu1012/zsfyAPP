@@ -14,6 +14,7 @@ import com.fyzs.database.StudentDao;
 import com.fyzs.tool.DateUtils;
 import com.fyzs.tool.MyAPP;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -709,6 +710,269 @@ public class KebiaoFragment extends Fragment {
 						+ str1[39] : str1[28] + "\n" + str1[30] + "\n"
 						+ str1[31]+ "\n" + str1[29];// 教师加4
 
+			}
+		}else if (count == 9 * huiche)// 9个信息
+		{
+			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+			if (zhoucichuli(str1[1])) {
+				xianshi = type.equals("教师") ? str1[0] + "\n" + str1[3] + "\n"
+						+ str1[4] : str1[0] + "\n" + str1[2] + "\n" + str1[3]+ "\n" + str1[1];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 1 * huiche])) {
+				xianshi = type.equals("教师") ? str1[5] + "\n" + str1[8] + "\n"
+						+ str1[9] : str1[4] + "\n" + str1[6] + "\n" + str1[7]+ "\n" + str1[5];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 2 * huiche])) {
+				xianshi = type.equals("教师") ? str1[10] + "\n" + str1[13] + "\n"
+						+ str1[14] : str1[8] + "\n" + str1[10] + "\n"
+						+ str1[11]+ "\n" + str1[9];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 3 * huiche])) {
+				xianshi = type.equals("教师") ? str1[15] + "\n" + str1[18] + "\n"
+						+ str1[19] : str1[12] + "\n" + str1[14] + "\n"
+						+ str1[15]+ "\n" + str1[13];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 4 * huiche])) {
+				xianshi = type.equals("教师") ? str1[20] + "\n" + str1[23] + "\n"
+						+ str1[24] : str1[16] + "\n" + str1[18] + "\n"
+						+ str1[19]+ "\n" + str1[17];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 5 * huiche])) {
+				xianshi = type.equals("教师") ? str1[25] + "\n" + str1[28] + "\n"
+						+ str1[29] : str1[20] + "\n" + str1[22] + "\n"
+						+ str1[23]+ "\n" + str1[21];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 6 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[30] + "\n" + str1[33] + "\n"
+						+ str1[34] : str1[24] + "\n" + str1[26] + "\n"
+						+ str1[27]+ "\n" + str1[25];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 7 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[35] + "\n" + str1[38] + "\n"
+						+ str1[39] : str1[28] + "\n" + str1[30] + "\n"
+						+ str1[31]+ "\n" + str1[29];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 8 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[40] + "\n" + str1[43] + "\n"
+						+ str1[44] : str1[32] + "\n" + str1[34] + "\n"
+						+ str1[35]+ "\n" + str1[33];// 教师加4
+
+			}
+		}else if (count == 10 * huiche)// 10个信息
+		{
+			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+			if (zhoucichuli(str1[1])) {
+				xianshi = type.equals("教师") ? str1[0] + "\n" + str1[3] + "\n"
+						+ str1[4] : str1[0] + "\n" + str1[2] + "\n" + str1[3]+ "\n" + str1[1];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 1 * huiche])) {
+				xianshi = type.equals("教师") ? str1[5] + "\n" + str1[8] + "\n"
+						+ str1[9] : str1[4] + "\n" + str1[6] + "\n" + str1[7]+ "\n" + str1[5];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 2 * huiche])) {
+				xianshi = type.equals("教师") ? str1[10] + "\n" + str1[13] + "\n"
+						+ str1[14] : str1[8] + "\n" + str1[10] + "\n"
+						+ str1[11]+ "\n" + str1[9];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 3 * huiche])) {
+				xianshi = type.equals("教师") ? str1[15] + "\n" + str1[18] + "\n"
+						+ str1[19] : str1[12] + "\n" + str1[14] + "\n"
+						+ str1[15]+ "\n" + str1[13];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 4 * huiche])) {
+				xianshi = type.equals("教师") ? str1[20] + "\n" + str1[23] + "\n"
+						+ str1[24] : str1[16] + "\n" + str1[18] + "\n"
+						+ str1[19]+ "\n" + str1[17];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 5 * huiche])) {
+				xianshi = type.equals("教师") ? str1[25] + "\n" + str1[28] + "\n"
+						+ str1[29] : str1[20] + "\n" + str1[22] + "\n"
+						+ str1[23]+ "\n" + str1[21];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 6 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[30] + "\n" + str1[33] + "\n"
+						+ str1[34] : str1[24] + "\n" + str1[26] + "\n"
+						+ str1[27]+ "\n" + str1[25];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 7 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[35] + "\n" + str1[38] + "\n"
+						+ str1[39] : str1[28] + "\n" + str1[30] + "\n"
+						+ str1[31]+ "\n" + str1[29];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 8 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[40] + "\n" + str1[43] + "\n"
+						+ str1[44] : str1[32] + "\n" + str1[34] + "\n"
+						+ str1[35]+ "\n" + str1[33];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 9 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[45] + "\n" + str1[48] + "\n"
+						+ str1[49] : str1[36] + "\n" + str1[38] + "\n"
+						+ str1[39]+ "\n" + str1[37];// 教师加4
+
+			}
+		}else if (count == 11 * huiche)// 11个信息
+		{
+			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+			if (zhoucichuli(str1[1])) {
+				xianshi = type.equals("教师") ? str1[0] + "\n" + str1[3] + "\n"
+						+ str1[4] : str1[0] + "\n" + str1[2] + "\n" + str1[3]+ "\n" + str1[1];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 1 * huiche])) {
+				xianshi = type.equals("教师") ? str1[5] + "\n" + str1[8] + "\n"
+						+ str1[9] : str1[4] + "\n" + str1[6] + "\n" + str1[7]+ "\n" + str1[5];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 2 * huiche])) {
+				xianshi = type.equals("教师") ? str1[10] + "\n" + str1[13] + "\n"
+						+ str1[14] : str1[8] + "\n" + str1[10] + "\n"
+						+ str1[11]+ "\n" + str1[9];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 3 * huiche])) {
+				xianshi = type.equals("教师") ? str1[15] + "\n" + str1[18] + "\n"
+						+ str1[19] : str1[12] + "\n" + str1[14] + "\n"
+						+ str1[15]+ "\n" + str1[13];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 4 * huiche])) {
+				xianshi = type.equals("教师") ? str1[20] + "\n" + str1[23] + "\n"
+						+ str1[24] : str1[16] + "\n" + str1[18] + "\n"
+						+ str1[19]+ "\n" + str1[17];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 5 * huiche])) {
+				xianshi = type.equals("教师") ? str1[25] + "\n" + str1[28] + "\n"
+						+ str1[29] : str1[20] + "\n" + str1[22] + "\n"
+						+ str1[23]+ "\n" + str1[21];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 6 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[30] + "\n" + str1[33] + "\n"
+						+ str1[34] : str1[24] + "\n" + str1[26] + "\n"
+						+ str1[27]+ "\n" + str1[25];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 7 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[35] + "\n" + str1[38] + "\n"
+						+ str1[39] : str1[28] + "\n" + str1[30] + "\n"
+						+ str1[31]+ "\n" + str1[29];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 8 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[40] + "\n" + str1[43] + "\n"
+						+ str1[44] : str1[32] + "\n" + str1[34] + "\n"
+						+ str1[35]+ "\n" + str1[33];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 9 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[45] + "\n" + str1[48] + "\n"
+						+ str1[49] : str1[36] + "\n" + str1[38] + "\n"
+						+ str1[39]+ "\n" + str1[37];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 10 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[50] + "\n" + str1[53] + "\n"
+						+ str1[54] : str1[40] + "\n" + str1[42] + "\n"
+						+ str1[43]+ "\n" + str1[41];// 教师加4
+			}
+		}else if (count == 12 * huiche)// 12
+		{
+			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+			if (zhoucichuli(str1[1])) {
+				xianshi = type.equals("教师") ? str1[0] + "\n" + str1[3] + "\n"
+						+ str1[4] : str1[0] + "\n" + str1[2] + "\n" + str1[3]+ "\n" + str1[1];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 1 * huiche])) {
+				xianshi = type.equals("教师") ? str1[5] + "\n" + str1[8] + "\n"
+						+ str1[9] : str1[4] + "\n" + str1[6] + "\n" + str1[7]+ "\n" + str1[5];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 2 * huiche])) {
+				xianshi = type.equals("教师") ? str1[10] + "\n" + str1[13] + "\n"
+						+ str1[14] : str1[8] + "\n" + str1[10] + "\n"
+						+ str1[11]+ "\n" + str1[9];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 3 * huiche])) {
+				xianshi = type.equals("教师") ? str1[15] + "\n" + str1[18] + "\n"
+						+ str1[19] : str1[12] + "\n" + str1[14] + "\n"
+						+ str1[15]+ "\n" + str1[13];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 4 * huiche])) {
+				xianshi = type.equals("教师") ? str1[20] + "\n" + str1[23] + "\n"
+						+ str1[24] : str1[16] + "\n" + str1[18] + "\n"
+						+ str1[19]+ "\n" + str1[17];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 5 * huiche])) {
+				xianshi = type.equals("教师") ? str1[25] + "\n" + str1[28] + "\n"
+						+ str1[29] : str1[20] + "\n" + str1[22] + "\n"
+						+ str1[23]+ "\n" + str1[21];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 6 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[30] + "\n" + str1[33] + "\n"
+						+ str1[34] : str1[24] + "\n" + str1[26] + "\n"
+						+ str1[27]+ "\n" + str1[25];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 7 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[35] + "\n" + str1[38] + "\n"
+						+ str1[39] : str1[28] + "\n" + str1[30] + "\n"
+						+ str1[31]+ "\n" + str1[29];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 8 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[40] + "\n" + str1[43] + "\n"
+						+ str1[44] : str1[32] + "\n" + str1[34] + "\n"
+						+ str1[35]+ "\n" + str1[33];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 9 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[45] + "\n" + str1[48] + "\n"
+						+ str1[49] : str1[36] + "\n" + str1[38] + "\n"
+						+ str1[39]+ "\n" + str1[37];// 教师加4
+
+			}
+			if (zhoucichuli(str1[1 + 10 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[50] + "\n" + str1[53] + "\n"
+						+ str1[54] : str1[40] + "\n" + str1[42] + "\n"
+						+ str1[43]+ "\n" + str1[41];// 教师加4
+			}
+			if (zhoucichuli(str1[1 + 11 * huiche])) {
+				System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+				xianshi = type.equals("教师") ? str1[55] + "\n" + str1[58] + "\n"
+						+ str1[59] : str1[44] + "\n" + str1[46] + "\n"
+						+ str1[47]+ "\n" + str1[45];// 教师加4
 			}
 		}
 		System.out.println("显示：" + xianshi);
