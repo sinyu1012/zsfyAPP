@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--是否取得焦點  -->
+    <item android:state_focused="true">  
+    <layer-list>  
+        <item  
+            android:left="1.6dip"  
+            android:top="1.6dip">  
+            <shape>  
+                <solid android:color="@color/btn_gray_pressed"/>  
+                <corners android:radius="5.0dip"/>  
+            </shape>  
+        </item>  
+    </layer-list>  
+</item>  
+<!-- 是否按下  -->
+<item  
+    android:state_pressed="true">  
+    <layer-list>  
+        <item  
+            android:left="1.6dip"  
+            android:top="1.6dip">  
+            <shape>  
+                <solid android:color="@color/btn_gray_pressed"/>  
+                <corners android:radius="5.0dip"/>  
+            </shape>  
+        </item>  
+    </layer-list>  
+</item>  
+<item>  
+    <layer-list>  
+        <item android:left="1.6dip" android:top="1.6dip">  
+            <shape>  
+                <solid android:color="@color/btn_gray_pressed"/>  
+                <corners android:radius="5dip"/>  
+            </shape>  
+        </item>  
+        <item android:bottom="2.0dip" android:right="2.0dip">  
+            <shape>  
+                <solid android:color="@color/white"/>  
+                <corners android:radius="5.0dip"/>  
+            </shape>  
+        </item>  
+    </layer-list>  
+</item>  
+
+</selector>

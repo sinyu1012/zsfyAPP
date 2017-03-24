@@ -8,12 +8,12 @@
         "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\slidingmenumain.xml"
     },
     {
-        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_homepage.xml",
-        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_homepage.xml"
-    },
-    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_about.xml",
         "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_about.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\frag_homepage.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\frag_homepage.xml"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_daka.xml",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\main_head.xml",
         "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\main_head.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yzm.xml",
@@ -214,6 +214,10 @@
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_item.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\layout\\viewpager_item.xml"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\layout\\list_dangji.xml",

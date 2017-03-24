@@ -1,5 +1,6 @@
 package com.fyzs.fragment;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -13,9 +14,13 @@ import com.fyzs.activity.MainActivity;
 import com.fyzs.activity.QueryzaocaoActivity;
 
 import android.app.ProgressDialog;
+import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -74,10 +79,32 @@ public class HomeFragment extends Fragment {
 		if (type.equals("教师")) {
 			name.setText(" " + sp.getString("name", "") + "，您好!");
 		}
-
+		String sex=sp.getString("sex", "男");
 		String xh = sp.getString("xh", "");
-
 		iv_home_touxiang = (ImageView) view.findViewById(R.id.iv_home_touxiang);
+		String touxiangpath = sp.getString("touxiangpath", "");
+		if (touxiangpath.equals("")) {
+			//默认头像
+			if (sex.equals("男")) {
+				iv_home_touxiang.setImageResource(R.drawable.boy);
+			}else
+				iv_home_touxiang.setImageResource(R.drawable.girl);
+		}else
+		{
+			try
+			{//读取本地头像
+				Uri uri = Uri.fromFile(new File(touxiangpath));
+				ContentResolver cr = this.getActivity().getContentResolver();
+				Bitmap bitmap = BitmapFactory.decodeStream(cr.openInputStream(uri));
+                /* 将Bitmap设定到ImageView */
+				iv_home_touxiang.setImageBitmap(bitmap);
+			}catch (Exception e){
+				if (sex.equals("男")) {
+					iv_home_touxiang.setImageResource(R.drawable.boy);
+				}else
+					iv_home_touxiang.setImageResource(R.drawable.girl);
+			}
+		}
 		iv_home_touxiang.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {

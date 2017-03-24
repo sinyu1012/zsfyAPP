@@ -36,7 +36,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e0a3be-bda5-4965-91bd-195a39fcd43b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/advertisement.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon_bot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon_bot1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_black_normal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_blue_normal_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_blue_pressed_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_gray_normal_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_gray_pressed_shape.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/viewpager_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/tool/ImageAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/tool/ImageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fyzs/tool/MPagerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/AddActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/AddActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/MainFoundActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/base/EditPopupWindow.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/bmob/lostfound/base/EditPopupWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$color.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$dimen.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$layout.class" />
@@ -44,28 +61,103 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/czfy/zsfy/YzmActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DJDatiActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity$myAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DangjiActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DetailBookActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/DetailBookActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity$myAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibraryActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LibrarySearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/LoginActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity$myAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MessageActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MsgDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/MsgDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/QueryzaocaoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/activity/StartActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/AboutFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment$myAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/ChengjiFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$MyAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$ViewHoder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment$ViewHoder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/HomeFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$myAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment$myAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/KebiaoFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LeftFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LeftFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/LibraryFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/MySettingsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$CheckVersionTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment$CheckVersionTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/fragment/PerInfoFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ChengjiDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ChengjiDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/CustomDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/CustomDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/FeedbackDialog$Builder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/FeedbackDialog$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ListadapterChengji.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/ListadapterChengji.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/RefreshableView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fyzs/tool/RefreshableView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/NbWQmEzKS2w7Sl50MijC8b9OeEo=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/NbWQmEzKS2w7Sl50MijC8b9OeEo=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_47e80cce8f704b4e08c21a8a9791dd5df2de7e11.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_47e80cce8f704b4e08c21a8a9791dd5df2de7e11.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/zsfyAPP-master-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/zsfyAPP-master-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/advertisement.png" afterPath="$PROJECT_DIR$/res/drawable/advertisement.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/czfy/zsfy/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/czfy/zsfy/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/btn_login_hui_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/btn_login_hui_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/btn_login_ok_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable/btn_login_ok_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/frag_homepage.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/frag_homepage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_queryzaocao.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/layout_queryzaocao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/btn_login_hui_selector.xml" afterPath="$PROJECT_DIR$/res/drawable/btn_login_hui_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/btn_login_ok_selector.xml" afterPath="$PROJECT_DIR$/res/drawable/btn_login_ok_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" afterPath="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/frag_homepage.xml" afterPath="$PROJECT_DIR$/res/layout/frag_homepage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" afterPath="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/color.xml" afterPath="$PROJECT_DIR$/res/values/color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" afterPath="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" afterPath="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" />
     </list>
     <ignored path="zsfyAPP-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,12 +195,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FZVipHttp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fyzs/Http/FZVipHttp.java">
+      <file leaf-file-name="StartActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="108">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <folding>
+                <element signature="e#1611#2198#0" expanded="true" />
+                <element signature="e#2197#2198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,21 +211,41 @@
       <file leaf-file-name="SetPerinfoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_queryzaocao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/layout_queryzaocao.xml">
+      <file leaf-file-name="JwxtHttp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fyzs/Http/JwxtHttp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="94" column="32" selection-start-line="84" selection-start-column="20" selection-end-line="94" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frag_homepage.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/frag_homepage.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="247">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -142,8 +257,31 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="105" column="39" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="39" />
+            <state relative-caret-position="197">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_dj_dati.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/layout_dj_dati.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerInfoFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="255" column="45" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -156,6 +294,7 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -1269,13 +1408,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/fyzs/tool/SearchBook.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/activity/MessageActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_splash2.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_start.xml" />
-        <option value="$PROJECT_DIR$/res/layout/frag_homepage.xml" />
         <option value="$PROJECT_DIR$/src/com/fyzs/fragment/KebiaoFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/frag_about.xml" />
         <option value="$PROJECT_DIR$/src/com/czfy/zsfy/YzmActivity.java" />
@@ -1283,14 +1416,11 @@
         <option value="$PROJECT_DIR$/res/layout/layout_login.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/fyzs/tool/ZaocaoInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/list_daka.xml" />
         <option value="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v23/values-v23.xml" />
         <option value="$PROJECT_DIR$/proguard-project.txt" />
-        <option value="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" />
         <option value="$USER_HOME$/.android/build-cache/9de69aafeb5171df4cb7ee7d032444230894563e/output/jars/classes.jar!/android/support/v7/app/ActionBarActivity.class" />
         <option value="$PROJECT_DIR$/src/com/czfy/zsfy/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/Http/DJKnowledgeHttp.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/Http/MessageHttp.java" />
@@ -1308,10 +1438,27 @@
         <option value="$PROJECT_DIR$/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/Http/HttpPostConn.java" />
         <option value="$PROJECT_DIR$/res/layout/layout_personinfo.xml" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" />
         <option value="$PROJECT_DIR$/src/com/fyzs/Http/FZVipHttp.java" />
-        <option value="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/tool/ImageAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/tool/ImageHandler.java" />
+        <option value="$PROJECT_DIR$/res/layout/viewpager_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/layout_queryzaocao.xml" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/tool/MPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_blue_normal_shape.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_black_normal.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_gray_normal_shape.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_gray_pressed_shape.xml" />
+        <option value="$PROJECT_DIR$/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_blue_pressed_shape.xml" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_login_ok_selector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_login_hui_selector.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_set_perinfo.xml" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/frag_homepage.xml" />
       </list>
     </option>
   </component>
@@ -1346,6 +1493,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1371,6 +1521,148 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fyzs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fyzs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zsfyAPP-master" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fyzs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1390,12 +1682,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1872,7 +2161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490232981803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sinyu 23日19:40">
+      <created>1490269187924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490269187924</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1885,15 +2181,15 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46061644" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047945205" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04109589" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2118003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29623288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1925,7 +2221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0305" />
     <MESSAGE value="0323" />
-    <option name="LAST_COMMIT_MESSAGE" value="0323" />
+    <MESSAGE value="sinyu 23日19:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="sinyu 23日19:40" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1934,163 +2231,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/KebiaoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="974" column="50" selection-start-line="974" selection-start-column="50" selection-end-line="974" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/frag_homepage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/frag_about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/czfy/zsfy/YzmActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/MyConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/LibrarySearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/layout_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/ZaocaoInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/list_daka.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/menu_frame_left.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/MySettingsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/LibraryFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_head.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3860">
-          <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.android/build-cache/9de69aafeb5171df4cb7ee7d032444230894563e/output/jars/classes.jar!/android/support/v7/app/ActionBarActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v21/values-v21.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -2116,13 +2256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -2179,13 +2312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/Http/JwxtHttp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="59" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -2268,13 +2394,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="221" column="35" selection-start-line="221" selection-start-column="35" selection-end-line="221" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2286,21 +2406,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_set_perinfo.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/ImageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="105" column="39" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="39" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_lib_search.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/frag_library.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/ImageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/viewpager_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/tool/MPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/QueryzaocaoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940">
+          <caret line="365" column="25" selection-start-line="365" selection-start-column="25" selection-end-line="365" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -2310,8 +2480,175 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="200">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/AS2.3SDK/sources/android-25/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1677">
+          <caret line="624" column="16" selection-start-line="624" selection-start-column="16" selection-end-line="624" selection-end-column="16" />
+          <folding>
+            <element signature="e#26932#26933#0" expanded="false" />
+            <element signature="e#26975#26976#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_gray_pressed_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_gray_normal_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_black_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_blue_normal_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_blue_pressed_shape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_login_ok_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_login_hui_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#1611#2198#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_dj_dati.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/DJDatiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/DangjiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="50" column="11" selection-start-line="41" selection-start-column="8" selection-end-line="50" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/Http/JwxtHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="94" column="32" selection-start-line="84" selection-start-column="20" selection-end-line="94" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/PerInfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="255" column="45" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/activity/SetPerinfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_set_perinfo.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/frag_homepage.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fyzs/fragment/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
           <folding />
         </state>
       </provider>

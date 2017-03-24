@@ -23,11 +23,14 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.AlertDialog.Builder;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -222,6 +225,63 @@ public class PerInfoFragment extends Fragment implements OnClickListener {
 			case R.id.lv_setperinfo:
 				startActivity(new Intent(this.getActivity(), SetPerinfoActivity.class));
 				break;
+		}
+	}
+
+	@Override
+	public void onStart() {
+		super.onStart();
+		refreshInfo();
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+
+	}
+
+	private void refreshInfo(){//刷新
+		SharedPreferences sp1 = PerInfoFragment.this.getActivity().getSharedPreferences(
+				"StuData", 0);
+		tx_name.setText(sp1.getString("name", ""));
+		tx_xh.setText(sp1.getString("xh", ""));
+		tx_class.setText(sp1.getString("banji", ""));
+		String type=sp1.getString("logintype", "学生");
+		if(!type.equals("学生"))
+		{
+			per_corx.setText("系部:");
+			tx_class.setText(sp1.getString("xibu", ""));
+			per_xorz.setText("账号:");
+		}
+		String sex=sp1.getString("sex", "男");
+//		if(sex.equals("男"))
+//		{
+//			cv.setImageResource(R.drawable.boy);  //设置imageview呈现的图片
+//		}
+//		else if(sex.equals("女"))
+//			cv.setImageResource(R.drawable.girl);
+		String touxiangpath = sp1.getString("touxiangpath", "");
+		if (touxiangpath.equals("")) {
+			//默认头像
+			if (sex.equals("男")) {
+				cv.setImageResource(R.drawable.boy);
+			}else
+				cv.setImageResource(R.drawable.girl);
+		}else
+		{
+			try
+			{//读取本地头像
+				Uri uri = Uri.fromFile(new File(touxiangpath));
+				ContentResolver cr = this.getActivity().getContentResolver();
+				Bitmap bitmap = BitmapFactory.decodeStream(cr.openInputStream(uri));
+                /* 将Bitmap设定到ImageView */
+				cv.setImageBitmap(bitmap);
+			}catch (Exception e){
+				if (sex.equals("男")) {
+					cv.setImageResource(R.drawable.boy);
+				}else
+					cv.setImageResource(R.drawable.girl);
+			}
 		}
 	}
 

@@ -40,6 +40,36 @@ public class StartActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_start);
         container = (RelativeLayout) findViewById(R.id.container);
+        SharedPreferences sp = getSharedPreferences("StuData", 0);
+        Log.d("start","VIP"+sp.getString("fzvip","0"));
+        if(!sp.getString("fzvip","0").equals("1")){
+            //不是VIP
+            FzvipYZ();
+            showguanggao();
+        }
+        else{
+           new Thread(new Runnable() {
+               @Override
+               public void run() {
+                   try {
+                       Thread.sleep(3000);
+                   } catch (InterruptedException e) {
+                       e.printStackTrace();
+                   }
+                   Intent intent = new Intent(StartActivity.this, LoginActivity.class);
+                   startActivity(intent);
+                   finish();
+                   overridePendingTransition(android.R.anim.slide_in_left,
+                           android.R.anim.slide_out_right);
+               }
+           });
+
+        }
+        GetBI();
+
+
+    }
+    private void showguanggao(){//广告
         //运行时权限处理
         List<String> permissiconList = new ArrayList<>();
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
@@ -57,28 +87,14 @@ public class StartActivity extends Activity {
             ActivityCompat.requestPermissions(this, permissions, 1);
         } else {
             try{
-            requestAds();
-                }
+                requestAds();
+            }
             catch (Exception e){
                 e.printStackTrace();
             }
         }
-        SharedPreferences sp = getSharedPreferences("StuData", 0);
-        Log.d("start","VIP"+sp.getString("fzvip","0"));
-        if(!sp.getString("fzvip","0").equals("1")){
-            //不是VIP
-            FzvipYZ();
-            Log.d("start","noVIP");
-        }
-        else{
-            Log.d("start","VIP");
-            Log.d(TAG, "onCreate: 不访问FZVIP");
-
-        }
-        GetBI();
-
-
     }
+
     //开屏广告
     private void requestAds() {
         String appId = "1105409129";
@@ -129,15 +145,13 @@ public class StartActivity extends Activity {
     }
 
     private void forword() {
-        if (canJump) {
+
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
             finish();
             overridePendingTransition(android.R.anim.slide_in_left,
                     android.R.anim.slide_out_right);
-        } else {
-            canJump = true;
-        }
+
     }
     public void GetBI() {
 

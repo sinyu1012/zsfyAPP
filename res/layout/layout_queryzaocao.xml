@@ -8,105 +8,112 @@
 
     <include layout="@layout/lib_head" />
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/main_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <LinearLayout
+                android:id="@+id/ll_pager_num"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </FrameLayout>
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <EditText
+                android:id="@+id/ed_lib_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:hint="请输入查询学号" />
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/advertisement" />
+                android:id="@+id/bt_zaocao_query"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="search"
+                android:src="@drawable/search" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp">
-
-                <EditText
-                    android:id="@+id/ed_lib_search"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:hint="请输入查询学号" />
-
-                <ImageView
-                    android:id="@+id/bt_zaocao_query"
-                    android:layout_width="0dp"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:onClick="search"
-                    android:src="@drawable/search" />
-
-                <ImageView
-                    android:id="@+id/iv_list"
-                    android:layout_width="0dp"
-                    android:layout_height="35dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:onClick="detail"
-                    android:src="@drawable/list_numbered" />
-            </LinearLayout>
-
-            <RelativeLayout
-                android:id="@+id/bannerContainer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="10dp"></RelativeLayout>
-
-            <LinearLayout
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_name1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:text="姓名"
-                    android:textColor="#4F94CD"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:id="@+id/tv_name2"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:text="班级"
-                    android:textColor="#4F94CD"
-                    android:textSize="20dp" />
-
-                <TextView
-                    android:id="@+id/tv_name3"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:text="次数"
-                    android:textColor="#4F94CD"
-                    android:textSize="20dp" />
-            </LinearLayout>
-
-            <ListView
-                android:id="@+id/lv_detail"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"></ListView>
-
+            <ImageView
+                android:id="@+id/iv_list"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="detail"
+                android:src="@drawable/list_numbered" />
         </LinearLayout>
-    </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/bannerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"></RelativeLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_name1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="姓名"
+                android:textColor="#4F94CD"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_name2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="班级"
+                android:textColor="#4F94CD"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_name3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="次数"
+                android:textColor="#4F94CD"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
 </LinearLayout>

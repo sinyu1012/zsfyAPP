@@ -12,6 +12,10 @@
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\course_text_view_bg.xml"
     },
     {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_pressed_shape.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_gray_pressed_shape.xml"
+    },
+    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\czfylib1.jpg",
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\czfylib1.jpg"
     },
@@ -28,6 +32,10 @@
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_pressed_shape.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_blue_pressed_shape.xml"
+    },
+    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -42,6 +50,10 @@
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gray_normal_shape.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_gray_normal_shape.xml"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_selector.xml",
@@ -140,8 +152,16 @@
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\course_table_last_colum.xml"
     },
     {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bot.png",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\icon_bot.png"
+    },
+    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_normal_shape.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_blue_normal_shape.xml"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -236,6 +256,10 @@
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black_normal.xml",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_black_normal.xml"
+    },
+    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_normal.9.png",
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_ok_normal.9.png"
     },
@@ -322,6 +346,14 @@
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\home_czfy.jpg",
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\home_czfy.jpg"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bot1.png",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\icon_bot1.png"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\advertisement.png",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\advertisement.png"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\thinfo.jpg",

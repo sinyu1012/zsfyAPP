@@ -25,7 +25,7 @@
                 android:background="#778899"
                 android:orientation="horizontal" >
 
-                <ImageView
+                <com.fyzs.view.CircleImageView
                     android:id="@+id/iv_home_touxiang"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
