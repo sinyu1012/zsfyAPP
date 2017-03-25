@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/res/drawable/right_arrow.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/drawable/user_list.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/czfy/zsfy/YzmActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/fyzs/tool/Utils.java" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -11,6 +11,8 @@ import android.support.v4.app.ActivityCompat;
 
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -30,10 +32,11 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StartActivity extends Activity {
+public class StartActivity extends Activity  implements SplashADListener{
     private static final String TAG = "StartActivity";
     private RelativeLayout container;
     private boolean canJump;
+    private SplashAD splashAD;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,32 +45,38 @@ public class StartActivity extends Activity {
         container = (RelativeLayout) findViewById(R.id.container);
         SharedPreferences sp = getSharedPreferences("StuData", 0);
         Log.d("start","VIP"+sp.getString("fzvip","0"));
+        //splashHolder = (ImageView) findViewById(R.id.splash_holder);
+
+        fetchSplashAD(this, container, null,  "1105409129", "4010723087987612", this, 0);
+
         if(!sp.getString("fzvip","0").equals("1")){
             //不是VIP
             FzvipYZ();
-            showguanggao();
+            //showguanggao();
         }
         else{
-           new Thread(new Runnable() {
-               @Override
-               public void run() {
-                   try {
-                       Thread.sleep(3000);
-                   } catch (InterruptedException e) {
-                       e.printStackTrace();
-                   }
-                   Intent intent = new Intent(StartActivity.this, LoginActivity.class);
-                   startActivity(intent);
-                   finish();
-                   overridePendingTransition(android.R.anim.slide_in_left,
-                           android.R.anim.slide_out_right);
-               }
-           });
+            //noguanggao();
 
         }
         GetBI();
 
-
+    }
+    private void noguanggao(){//没有广告
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Intent intent = new Intent(StartActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+                overridePendingTransition(android.R.anim.slide_in_left,
+                        android.R.anim.slide_out_right);
+            }
+        });
     }
     private void showguanggao(){//广告
         //运行时权限处理
@@ -87,7 +96,7 @@ public class StartActivity extends Activity {
             ActivityCompat.requestPermissions(this, permissions, 1);
         } else {
             try{
-                requestAds();
+               // requestAds();
             }
             catch (Exception e){
                 e.printStackTrace();
@@ -95,38 +104,68 @@ public class StartActivity extends Activity {
         }
     }
 
-    //开屏广告
-    private void requestAds() {
-        String appId = "1105409129";
-        String adId = "4010723087987612";
-        new SplashAD(this, container, appId, adId, new SplashADListener() {
-            @Override
-            public void onADDismissed() {//成功
-                forword();
-            }
+    /**
+     * 拉取开屏广告，开屏广告的构造方法有3种，详细说明请参考开发者文档。
+     *
+     * @param activity        展示广告的activity
+     * @param adContainer     展示广告的大容器
+     * @param skipContainer   自定义的跳过按钮：传入该view给SDK后，SDK会自动给它绑定点击跳过事件。SkipView的样式可以由开发者自由定制，其尺寸限制请参考activity_splash.xml或者接入文档中的说明。
+     * @param appId           应用ID
+     * @param posId           广告位ID
+     * @param adListener      广告状态监听器
+     * @param fetchDelay      拉取广告的超时时长：取值范围[3000, 5000]，设为0表示使用广点通SDK默认的超时时长。
+     */
+    private void fetchSplashAD(Activity activity, ViewGroup adContainer, View skipContainer,
+                               String appId, String posId, SplashADListener adListener, int fetchDelay) {
+        splashAD = new SplashAD(activity, adContainer, skipContainer, appId, posId, adListener, fetchDelay);
+    }
+
+    @Override
+    public void onADPresent() {
+        Log.i("AD_DEMO", "SplashADPresent");
+       // splashHolder.setVisibility(View.INVISIBLE); // 广告展示后一定要把预设的开屏图片隐藏起来
+    }
+
+    @Override
+    public void onADClicked() {
+        Log.i("AD_DEMO", "SplashADClicked");
+    }
+
+    @Override
+    public void onADTick(long l) {
+
+    }
 
 
-            @Override
-            public void onNoAD(int i) {//失败
+    @Override
+    public void onADDismissed() {
+        Log.i("AD_DEMO", "SplashADDismissed");
+        next();
+    }
 
-                forword();
-            }
+    @Override
+    public void onNoAD(int errorCode) {
+        Log.i("AD_DEMO", "LoadSplashADFail, eCode=" + errorCode);
+        /** 如果加载广告失败，则直接跳转 */
+        this.startActivity(new Intent(this, LoginActivity.class));
+        finish();
+        overridePendingTransition(android.R.anim.slide_in_left,
+                android.R.anim.slide_out_right);
+    }
 
-            @Override
-            public void onADPresent() {
-
-            }
-
-            @Override
-            public void onADClicked() {//点击
-
-            }
-
-            @Override
-            public void onADTick(long l) {
-
-            }
-        });
+    /**
+     * 设置一个变量来控制当前开屏页面是否可以跳转，当开屏广告为普链类广告时，点击会打开一个广告落地页，此时开发者还不能打开自己的App主页。当从广告落地页返回以后，
+     * 才可以跳转到开发者自己的App主页；当开屏广告是App类广告时只会下载App。
+     */
+    private void next() {
+        if (canJump) {
+            this.startActivity(new Intent(this, LoginActivity.class));
+            this.finish();
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+        } else {
+            canJump = true;
+        }
     }
 
     @Override
@@ -139,20 +178,11 @@ public class StartActivity extends Activity {
     protected void onResume() {
         super.onResume();
         if (canJump) {
-            forword();
+            next();
         }
         canJump = true;
     }
 
-    private void forword() {
-
-            Intent intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
-            finish();
-            overridePendingTransition(android.R.anim.slide_in_left,
-                    android.R.anim.slide_out_right);
-
-    }
     public void GetBI() {
 
         new Thread(){
@@ -217,16 +247,4 @@ public class StartActivity extends Activity {
         }.start();
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        switch (requestCode){
-            case 1:
-                if (grantResults.length>0&&grantResults[0]==PackageManager.PERMISSION_GRANTED){
-                   requestAds();
-                }else {
-                    Toast.makeText(this,"发生未知错误",Toast.LENGTH_SHORT).show();
-                }
-                break;
-        }
-    }
 }

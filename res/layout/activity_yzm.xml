@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     tools:context="com.czfy.zsfy.YzmActivity">
+    <include layout="@layout/lib_head" />
     <ImageView
         android:id="@+id/img_yzm"
         android:layout_width="150dp"

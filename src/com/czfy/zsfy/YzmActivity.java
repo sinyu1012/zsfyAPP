@@ -46,9 +46,10 @@ public class YzmActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setTitle("请输入验证码");
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_yzm);
         FzvipYZ();
+        initview();
         img_yzm=(ImageView)findViewById(R.id.img_yzm);
         txt_yzm=(TextView)findViewById(R.id.et_yzm);
         shp = getSharedPreferences(MyConstants.FIRST, MODE_PRIVATE);
@@ -69,13 +70,28 @@ public class YzmActivity extends Activity {
             }
         }).start();
     }
+
+    private void initview() {
+        TextView tv_top_text = (TextView) findViewById(R.id.tv_top_lib);
+        tv_top_text.setText("输入验证码");
+        ImageView bt_top_return = (ImageView) findViewById(R.id.bt_top_return);
+        bt_top_return.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                finish();
+            }
+        });
+    }
+
     String loginType;
     public void login(View v)
     {
 
         final String yzm = txt_yzm.getText().toString().trim();
         if (TextUtils.isEmpty(yzm) ) {
-            Toast.makeText(this, "账号或者密码不能为空",0).show();
+            Toast.makeText(this, "验证码不能为空",Toast.LENGTH_SHORT).show();
             return;
         }
         pd = ProgressDialog.show(YzmActivity.this, "", "登录中，请稍后……");// 等待的对话框
@@ -85,9 +101,11 @@ public class YzmActivity extends Activity {
         final String pwd=sp.getString("pwd","");
         final String cookie=sp.getString("cookie","");
         loginType=sp.getString("logintype","学生");
+        System.out.print("logintype0------------------------------------------------"+loginType);
         new Thread() {
             public void run() {
                 int ok =2;
+                System.out.print("logintype------------------------------------------------"+loginType);
                 switch (loginType) {
                     case "部门":
                     {
@@ -277,6 +295,6 @@ public class YzmActivity extends Activity {
         SharedPreferences sp = this.getSharedPreferences("StuData", 0);
         SetUser.AddUser(sp.getString("xh", ""), sp.getString("name", ""),
                 sp.getString("pwd", ""), sp.getString("banji", ""),
-                sp.getString("xibu", "")+loginType, sp.getString("sex", ""), time + "新版大更新2.1");
+                sp.getString("xibu", "")+loginType, sp.getString("sex", ""), time + "新版大更新2.2");
     }
 }

@@ -21,7 +21,6 @@
         android:layout_centerVertical="true"
         android:text="图书查询"
         android:textColor="#ffffff"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textSize="20dp"/>
 
 </RelativeLayout>

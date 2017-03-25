@@ -240,18 +240,21 @@ public class LoginActivity extends Activity {
 				{
 					pd.dismiss();// 关闭ProgressDialog
 					et.putString("logintype", "部门");
+					et.commit();
 					showToastInAnyThread("部门登录尚未实现，需教务支持");
 					return;
 				}
 				case "教师":
 				{
 					et.putString("logintype", "教师");
+					et.commit();
 					ok=CookieHttp.Login(xh, pwd, LoginActivity.this); // 8秒后没有连接上服务器
 					break;
 				}
 				case "学生":
 				{
 					et.putString("logintype", "学生");
+					et.commit();
 					ok= CookieHttp.Login(xh, pwd, LoginActivity.this); // 8秒后没有连接上服务器
 					break;
 				}
@@ -269,7 +272,6 @@ public class LoginActivity extends Activity {
 			};
 		}.start();
 
-		et.commit();
 		shp.edit().putBoolean(MyConstants.FIRST, true).commit();
 	}
 
