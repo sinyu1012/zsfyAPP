@@ -1,34 +1,20 @@
 package com.fyzs.Http;
 
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.logging.Logger;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.util.Log;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.params.CoreConnectionPNames;
+import com.fyzs.database.Kebiao;
+import com.fyzs.database.StudentDao;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.R.bool;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.util.Log;
-import android.widget.Toast;
-
-import com.fyzs.activity.LoginActivity;
-import com.fyzs.activity.MainActivity;
-import com.fyzs.activity.StreamTools;
-import com.fyzs.database.Chengji;
-import com.fyzs.database.Kebiao;
-import com.fyzs.database.StudentDao;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class JwxtHttp {
     private static StudentDao dao;
@@ -74,14 +60,11 @@ public class JwxtHttp {
                     String stuPerInfo = json.getString("stuPerInfo");
                     JSONObject jsonPerInfo = new JSONObject(stuPerInfo);
                     System.out.println("³É¹¦");
-
                     String name = jsonstu.getString("name");
                     String sex = jsonPerInfo.getString("sex");
                     String banji = jsonPerInfo.getString("banji");
                     String xibu = jsonPerInfo.getString("xibu");
-
                     //System.out.println(name);
-
                     SharedPreferences sp = context.getSharedPreferences(
                             "StuData", 0);
                     final Editor et = sp.edit();

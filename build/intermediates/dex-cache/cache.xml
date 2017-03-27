@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\sinyu\.android\build-cache\f8dfbbf69838ae7b7de015495782f6606d2597ce\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\classes_f2e4145b2ab8e292cefdb1a4f74388a8f96c505e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\android2\zsfyAPP-master\libs\httpclient-cache-4.5.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
         <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2_6d6ba6134982e568778a07ae2f04a2442bfe2639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sinyu\.android\build-cache\f8dfbbf69838ae7b7de015495782f6606d2597ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\android2\zsfyAPP-master\build\intermediates\pre-dexed\debug\classes_f2e4145b2ab8e292cefdb1a4f74388a8f96c505e.jar" />
     </item>
     <item
         is-multidex="false"

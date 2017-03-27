@@ -1,31 +1,25 @@
 package com.fyzs.activity;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.app.Activity;
-import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
-
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.czfy.zsfy.R;
 import com.fyzs.Http.BasicInfoHttp;
 import com.fyzs.Http.FZVipHttp;
-import com.fyzs.Http.MessageHttp;
-import com.fyzs.database.Message;
 import com.qq.e.ads.splash.SplashAD;
 import com.qq.e.ads.splash.SplashADListener;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 

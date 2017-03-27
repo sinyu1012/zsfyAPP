@@ -1,20 +1,5 @@
 package com.fyzs.fragment;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import com.czfy.zsfy.R;
-import com.fyzs.Http.MessageHttp;
-import com.fyzs.activity.MainActivity;
-import com.fyzs.database.Chengji;
-import com.fyzs.database.Kebiao;
-import com.fyzs.database.StudentDao;
-import com.fyzs.tool.DateUtils;
-import com.fyzs.tool.MyAPP;
-
-import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -29,21 +14,30 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
+
+import com.czfy.zsfy.R;
+import com.fyzs.activity.MainActivity;
+import com.fyzs.database.Kebiao;
+import com.fyzs.database.StudentDao;
+import com.fyzs.tool.DateUtils;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  *

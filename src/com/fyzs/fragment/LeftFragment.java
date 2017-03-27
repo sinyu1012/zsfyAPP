@@ -2,8 +2,11 @@ package com.fyzs.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Intent;
+import android.content.ContentResolver;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,9 +16,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.czfy.zsfy.R;
-import com.fyzs.activity.LoginActivity;
 import com.fyzs.activity.MainActivity;
 import com.fyzs.view.CircleImageView;
+
+import java.io.File;
+
 /**
  * 
  * @author sinyu
@@ -31,6 +36,7 @@ public class LeftFragment extends Fragment implements OnClickListener{
 	private View login;
 	private TextView name;
 	private CircleImageView cv;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -46,11 +52,41 @@ public class LeftFragment extends Fragment implements OnClickListener{
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.layout_menu, null);
 		findViews(view);
-		
+
 		return view;
 	}
-	
-	
+
+	@Override
+	public void onStart() {
+		super.onStart();
+		SharedPreferences sp = LeftFragment.this.getActivity().getSharedPreferences("StuData", 0);
+		name.setText(sp.getString("name", "你好"));
+		String sex=sp.getString("sex", "男");
+		String touxiangpath = sp.getString("touxiangpath", "");
+		if (touxiangpath.equals("")) {
+			//默认头像
+			if (sex.equals("男")) {
+				cv.setImageResource(R.drawable.boy);
+			}else
+				cv.setImageResource(R.drawable.girl);
+		}else
+		{
+			try
+			{//读取本地头像
+				Uri uri = Uri.fromFile(new File(touxiangpath));
+				ContentResolver cr = this.getActivity().getContentResolver();
+				Bitmap bitmap = BitmapFactory.decodeStream(cr.openInputStream(uri));
+                /* 将Bitmap设定到ImageView */
+				cv.setImageBitmap(bitmap);
+			}catch (Exception e){
+				if (sex.equals("男")) {
+					cv.setImageResource(R.drawable.boy);
+				}else
+					cv.setImageResource(R.drawable.girl);
+			}
+		}
+	}
+
 	@SuppressLint("NewApi")
 	public void findViews(View view) {
 		cv=(CircleImageView) view.findViewById(R.id.profile_image);
@@ -71,17 +107,7 @@ public class LeftFragment extends Fragment implements OnClickListener{
 		commentsView.setOnClickListener(this);
 		//settingsView.setOnClickListener(this);
 		//login.setOnClickListener(this);
-		
-		SharedPreferences sp = LeftFragment.this.getActivity().getSharedPreferences("StuData", 0);
-		name.setText(sp.getString("name", "你好"));
-		String sex=sp.getString("sex", "男");
-		if(sex.equals("男"))
-		{
-			cv.setImageResource(R.drawable.boy);  //设置imageview呈现的图片
-		}
-		else if(sex.equals("女"))
-			cv.setImageResource(R.drawable.girl);
-		
+
 	}
 	
 	@Override

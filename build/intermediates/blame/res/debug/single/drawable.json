@@ -204,10 +204,6 @@
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\start2.jpg",
-        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\start2.jpg"
-    },
-    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\daka.png",
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\daka.png"
     },
@@ -292,6 +288,10 @@
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\btn_cancel_pressed.9.png"
     },
     {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\start3.jpg",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\start3.jpg"
+    },
+    {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_normal.xml",
         "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\edittext_normal.xml"
     },
@@ -342,6 +342,10 @@
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\sinyu\\.android\\build-cache\\455562a16e7d2f3bcff3a6f8a42884ebf6d5867b\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\start2.png",
+        "source": "E:\\android2\\zsfyAPP-master\\res\\drawable\\start2.png"
     },
     {
         "merged": "E:\\android2\\zsfyAPP-master\\build\\intermediates\\res\\merged\\debug\\drawable\\home_czfy.jpg",

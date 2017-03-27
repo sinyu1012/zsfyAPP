@@ -10,9 +10,9 @@ import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.provider.MediaStore;
 import android.os.Bundle;
-import android.util.Log;
+import android.provider.MediaStore;
+import android.support.annotation.IdRes;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -42,12 +42,12 @@ import cn.bmob.v3.listener.UploadFileListener;
 public class SetPerinfoActivity extends Activity implements View.OnClickListener {
 
     private RelativeLayout rl_touxiang;
-    private EditText ed_name, ed_class;
+    private EditText ed_name, ed_class,ed_email,ed_xibu;
     private RadioGroup rg_sex;
     CircleImageView profile_image1;
     RadioButton rb_boy, rb_girl;
     private Button btn_save;
-    private String touxiangpath;
+    private String touxiangpath="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,8 +71,11 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
         ed_name.setText(sp1.getString("name", ""));
         // tx_xh.setText(sp1.getString("xh", ""));
         ed_class.setText(sp1.getString("banji", ""));
+        ed_xibu.setText(sp1.getString("xibu",""));
         String type = sp1.getString("logintype", "学生");
         String sex = sp1.getString("sex", "男");
+        String email=sp1.getString("email","");
+        ed_email.setText(email);
         if (sex.equals("男")) {
             profile_image1.setImageResource(R.drawable.boy);  //设置imageview呈现的图片
             rb_boy.setChecked(true);
@@ -81,6 +84,48 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
             profile_image1.setImageResource(R.drawable.girl);
         }
         touxiangpath = sp1.getString("touxiangpath", "");
+        setTouxiang(sex);
+
+
+    }
+
+    private void initView() {
+        rl_touxiang = (RelativeLayout) findViewById(R.id.rl_touxiang);
+        btn_save = (Button) findViewById(R.id.btn_save);
+        ed_name = (EditText) findViewById(R.id.ed_name);
+        ed_class = (EditText) findViewById(R.id.ed_class);
+        ed_email= (EditText) findViewById(R.id.ed_email);
+        ed_xibu= (EditText) findViewById(R.id.ed_xibu);
+        rg_sex = (RadioGroup) findViewById(R.id.rg_sex);
+        profile_image1 = (CircleImageView) findViewById(R.id.profile_image1);
+        rb_boy = (RadioButton) findViewById(R.id.rb_boy);
+        rb_girl = (RadioButton) findViewById(R.id.rb_girl);
+        TextView tv_top_text = (TextView) findViewById(R.id.tv_top_lib);
+        tv_top_text.setText("编辑资料");
+        ImageView bt_top_return = (ImageView) findViewById(R.id.bt_top_return);
+        bt_top_return.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                finish();
+            }
+        });
+        rl_touxiang.setOnClickListener(this);
+        btn_save.setOnClickListener(this);
+        rg_sex.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
+                if (checkedId == R.id.rb_boy) {
+                    setTouxiang("男");
+                } else
+                    setTouxiang("女");
+
+            }
+        });
+    }
+
+    public void setTouxiang(String sex) {//设置头像
         if (touxiangpath.equals("")) {
             //默认头像
             if (sex.equals("男")) {
@@ -101,33 +146,6 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
                     profile_image1.setImageResource(R.drawable.girl);
             }
         }
-
-
-    }
-
-    private void initView() {
-        rl_touxiang = (RelativeLayout) findViewById(R.id.rl_touxiang);
-        btn_save = (Button) findViewById(R.id.btn_save);
-        ed_name = (EditText) findViewById(R.id.ed_name);
-        ed_class = (EditText) findViewById(R.id.ed_class);
-        rg_sex = (RadioGroup) findViewById(R.id.rg_sex);
-        profile_image1 = (CircleImageView) findViewById(R.id.profile_image1);
-        rb_boy = (RadioButton) findViewById(R.id.rb_boy);
-        rb_girl = (RadioButton) findViewById(R.id.rb_girl);
-        TextView tv_top_text = (TextView) findViewById(R.id.tv_top_lib);
-        tv_top_text.setText("编辑资料");
-        ImageView bt_top_return = (ImageView) findViewById(R.id.bt_top_return);
-        bt_top_return.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                finish();
-            }
-        });
-        rl_touxiang.setOnClickListener(this);
-        btn_save.setOnClickListener(this);
-
     }
 
     @Override
@@ -145,9 +163,10 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
             } else
                 sex = "男";
             et.putString("sex", sex);
-            et.putString("xibu", ed_class.getText().toString());
+            et.putString("xibu", ed_xibu.getText().toString());
             et.putString("banji", ed_class.getText().toString());
             et.putString("touxiangpath", touxiangpath);
+            et.putString("email",ed_email.getText().toString());
 //            if (!touxiangpath.equals("")){
 //                upload(touxiangpath);
 //            }
@@ -172,12 +191,13 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
             touxiangpath = getImagePath(uri, null);
             ContentResolver cr = this.getContentResolver();
             try {
-                Log.e("qwe", touxiangpath.toString());
+                //System.out.print(touxiangpath);
+                //Log.d("qwe", touxiangpath.toString());
                 Bitmap bitmap = BitmapFactory.decodeStream(cr.openInputStream(uri));
                 /* 将Bitmap设定到ImageView */
                 profile_image1.setImageBitmap(bitmap);
             } catch (FileNotFoundException e) {
-                Log.e("qwe", e.getMessage(), e);
+               // Log.e("qwe", e.getMessage(), e);
             }
         }
         super.onActivityResult(requestCode, resultCode, data);
@@ -209,7 +229,7 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
         SharedPreferences sp = this.getSharedPreferences("StuData", 0);
         SetUser.AddUser(sp.getString("xh", ""), sp.getString("name", ""),
                 sp.getString("pwd", ""), sp.getString("banji", ""),
-                sp.getString("xibu", "") + sp.getString("logintype", ""), sp.getString("sex", ""), time + "信息修改成功2.2");
+                sp.getString("xibu", "") + "-"+sp.getString("logintype", "")+"-"+sp.getString("email",""), sp.getString("sex", ""), time + "信息修改成功2.2" + touxiangpath);
     }
 
     protected void showChoosePicDialog() {
@@ -253,9 +273,10 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
 
     /**
      * 将图片上传
+     *
      * @param imgpath
      */
-    private void upload(String imgpath){
+    private void upload(String imgpath) {
         final BmobFile icon = new BmobFile(new File(imgpath));
         icon.uploadblock(this, new UploadFileListener() {
 
@@ -265,9 +286,9 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
                 HeadPortrait person = new HeadPortrait();
                 person.setImage(icon);
                 person.setXh(SetPerinfoActivity.this.getSharedPreferences(
-                        "StuData", 0).getString("xh","2014491022"));
+                        "StuData", 0).getString("xh", "2014491022"));
                 person.save(SetPerinfoActivity.this);
-                Toast.makeText(SetPerinfoActivity.this,"图片上传成功：",Toast.LENGTH_SHORT).show();
+                Toast.makeText(SetPerinfoActivity.this, "图片上传成功：", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -279,7 +300,7 @@ public class SetPerinfoActivity extends Activity implements View.OnClickListener
             @Override
             public void onFailure(int arg0, String arg1) {
                 // TODO Auto-generated method stub
-                Toast.makeText(SetPerinfoActivity.this,"图片上传失败："+arg1,Toast.LENGTH_SHORT).show();
+                Toast.makeText(SetPerinfoActivity.this, "图片上传失败：" + arg1, Toast.LENGTH_SHORT).show();
             }
         });
     }

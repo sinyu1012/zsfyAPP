@@ -100,7 +100,6 @@ public class LoginActivity extends Activity {
 			startActivity(intent);
 			finish();
 		} else {
-
 		}
 		_instance=this;
 		dao = new StudentDao(this);

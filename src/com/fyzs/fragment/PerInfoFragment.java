@@ -1,28 +1,9 @@
 package com.fyzs.fragment;
 
-import java.io.File;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
-import com.czfy.zsfy.R;
-import com.fyzs.Http.FeedbackHttp;
-import com.fyzs.Http.JwxtHttp;
-import com.fyzs.activity.LoginActivity;
-import com.fyzs.activity.MainActivity;
-import com.fyzs.activity.SetPerinfoActivity;
-import com.fyzs.fragment.MySettingsFragment.CheckVersionTask;
-import com.fyzs.tool.DownLoadManager;
-import com.fyzs.tool.MyConstants;
-import com.fyzs.tool.UpdataInfo;
-import com.fyzs.tool.UpdataInfoParser;
-import com.fyzs.view.CircleImageView;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.app.AlertDialog.Builder;
+import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -46,6 +27,21 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.czfy.zsfy.R;
+import com.fyzs.activity.LoginActivity;
+import com.fyzs.activity.MainActivity;
+import com.fyzs.activity.SetPerinfoActivity;
+import com.fyzs.tool.DownLoadManager;
+import com.fyzs.tool.MyConstants;
+import com.fyzs.tool.UpdataInfo;
+import com.fyzs.tool.UpdataInfoParser;
+import com.fyzs.view.CircleImageView;
+
+import java.io.File;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 /**
  * 
  * @author sinyu
@@ -104,7 +100,7 @@ public class PerInfoFragment extends Fragment implements OnClickListener {
 		tx_feedback=(LinearLayout) view.findViewById(R.id.tx_feedback);
 		lv_setperinfo= (LinearLayout) view.findViewById(R.id.lv_setperinfo);
 		lv_setperinfo.setOnClickListener(this);
-		
+		cv.setOnClickListener(this);
 		SharedPreferences sp1 = PerInfoFragment.this.getActivity().getSharedPreferences(
 				"StuData", 0);
 		tx_name.setText(sp1.getString("name", ""));
@@ -225,6 +221,9 @@ public class PerInfoFragment extends Fragment implements OnClickListener {
 			case R.id.lv_setperinfo:
 				startActivity(new Intent(this.getActivity(), SetPerinfoActivity.class));
 				break;
+			case R.id.profile_image1:
+				startActivity(new Intent(this.getActivity(), SetPerinfoActivity.class));
+				break;
 		}
 	}
 
@@ -340,12 +339,12 @@ public class PerInfoFragment extends Fragment implements OnClickListener {
 			case GET_UNDATAINFO_ERROR:
 				//服务器超时   
 				handler.sendEmptyMessage(8);
-	            Toast.makeText(PerInfoFragment.this.getActivity().getApplicationContext(), "获取服务器更新信息失败", 1).show(); 
+	            Toast.makeText(PerInfoFragment.this.getActivity().getApplicationContext(), "获取服务器更新信息失败", Toast.LENGTH_LONG).show();
 				break;
 			case DOWN_ERROR:
 				//下载apk失败  
 				handler.sendEmptyMessage(8);
-	            Toast.makeText(PerInfoFragment.this.getActivity().getApplicationContext(), "下载新版本失败", 1).show(); 
+	            Toast.makeText(PerInfoFragment.this.getActivity().getApplicationContext(), "下载新版本失败", Toast.LENGTH_LONG).show();
 				break;
 			case 8:
 				pd.dismiss();// 关闭ProgressDialog

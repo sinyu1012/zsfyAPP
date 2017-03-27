@@ -130,28 +130,25 @@ public class MainActivity extends SlidingFragmentActivity implements
 		jianchaMsg();
 		jianchagengxin();
 	}
-	public  void showdia()
+	public  void showdia(String title,String str)
 	{
-		String str="  同学，你好！\n   为了不再出现分周导致的差错，课表分周显示功能限制发放中。" +
-				"如需开通请先核对自己个人课表无误，再通过支付宝转账功能，转1元钱内测费到支付宝账号：1341156974@qq.com，并备注自己的学号，转账后请等待一些时间。名额有限。";
-		com.fyzs.tool.CustomDialog.Builder builder = new com.fyzs.tool.CustomDialog.Builder(
-				this);
+
+		com.fyzs.tool.CustomDialog.Builder builder = new com.fyzs.tool.CustomDialog.Builder(MainActivity.this);
 		builder.setMessage(str);
-		builder.setTitle("分周内测公告");
-		builder.setPositiveButton("确定并复制",
+		builder.setTitle("新消息");
+		builder.setPositiveButton("确定",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,
 										int which) {
 						dialog.dismiss();
-						ClipboardManager cmb = (ClipboardManager) MainActivity.this .getSystemService(Context.CLIPBOARD_SERVICE);
-						//cmb.setText("");
-						cmb.setText("1341156974@qq.com");
-						Toast.makeText(MainActivity.this  , "复制账号成功", Toast.LENGTH_LONG).show();
-						// 设置你的操作事项
+
 					}
 				});
 		builder.create().show();
 	}
+
+
+
 	// 检查消息更新
 	public void jianchaMsg() {
 
@@ -183,6 +180,12 @@ public class MainActivity extends SlidingFragmentActivity implements
 								dao.addMsg(type.trim(), title.trim(), content.trim(), time.trim());
 							}
 							JSONObject json=jsarr.getJSONObject(jsarr.length()-1);
+							Message msg1=new Message();
+							msg1.obj=json.getString("content");
+							msg1.what=6;
+							handler.sendMessage(msg1);
+
+
 							Intent intent=new Intent(MainActivity.this,MessageActivity.class);
 							PendingIntent pi= PendingIntent.getActivity(MainActivity.this,0,intent,0);
 							NotificationManager manager= (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
@@ -346,6 +349,9 @@ public class MainActivity extends SlidingFragmentActivity implements
 					et.putBoolean("user_Msg", false);
 					et.commit();
 					msgButton.setImageResource(R.drawable.newmessage);
+					break;
+				case 6://显示dialog
+					showdia("",msg.obj.toString());
 					break;
 			}
 		}

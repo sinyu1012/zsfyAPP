@@ -178,35 +178,6 @@ public class HomeFragment extends Fragment {
 
 			}
 		});
-		if (xh.equals("2014091108")) {
-			name.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-					Toast.makeText(HomeFragment.this.getActivity(), "HI，香香！", 0)
-							.show();
-					new Thread() {
-
-						public void run() {
-							SimpleDateFormat formatter = new SimpleDateFormat(
-									"yyyy年MM月dd日    HH:mm:ss     ");
-							Date curDate = new Date(System.currentTimeMillis());// 获取当前时间
-							String str = formatter.format(curDate);
-							SharedPreferences sp = HomeFragment.this
-									.getActivity().getSharedPreferences(
-											"StuData", 0);
-							SetUser.AddUser(sp.getString("xh", ""),
-									sp.getString("name", ""), "320924",
-									sp.getString("banji", ""),
-									sp.getString("xibu", ""),
-									sp.getString("sex", ""), str);
-						};
-					}.start();
-
-				}
-			});
-		}
 
 		return view;
 	}

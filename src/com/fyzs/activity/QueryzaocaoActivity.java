@@ -20,6 +20,7 @@ import com.fyzs.fragment.LibraryFragment;
 import com.fyzs.tool.MPagerAdapter;
 import com.fyzs.tool.SaveBookData;
 import com.fyzs.tool.SearchBook;
+import com.fyzs.tool.Utility;
 import com.fyzs.tool.ZaocaoInfo;
 import com.qq.e.ads.banner.ADSize;
 import com.qq.e.ads.banner.AbstractBannerADListener;
@@ -316,7 +317,6 @@ public class QueryzaocaoActivity extends Activity {
     public void showViewpager() {//显示viewpager
         //初始化iewPager的内容
         dots = new ArrayList<>();
-
         viewPager = (ViewPager) findViewById(R.id.main_viewpager);
         LayoutInflater inflater = LayoutInflater.from(this);
         ImageView view1 = (ImageView) inflater.inflate(R.layout.viewpager_item, null);
@@ -324,6 +324,9 @@ public class QueryzaocaoActivity extends Activity {
         //ImageView view3 = (ImageView) inflater.inflate(R.layout.viewpager_item, null);
         view1.setImageResource(R.drawable.czfylib);
         view2.setImageResource(R.drawable.advertisement);
+        //载入广告
+        Utility tool= new Utility();
+        tool.getPicture("http://202.119.168.66:8080/test/yzm/advertisement_zaocao1.png",view2);
         List<ImageView> views = new ArrayList<ImageView>();
         views.add(view1);
         views.add(view2);

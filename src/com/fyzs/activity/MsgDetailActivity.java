@@ -57,8 +57,8 @@ public class MsgDetailActivity extends Activity {
 		
 		tv_title.setText(msg.getTitle());
 		tv_content.setText("	\n"+msg.getContent());
-		tv_type.setText("来自："+msg.getType());
-		tv_time.setText("时间："+msg.getTime());
+		tv_type.setText(""+msg.getType());
+		tv_time.setText(""+msg.getTime());
 	}
 	
 }

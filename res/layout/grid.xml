@@ -2,21 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
         android:gravity="center"
         android:background="#ffffff"
     android:orientation="vertical" >
     <ImageView 
         android:layout_width="80sp"
+        android:layout_marginTop="10dp"
         android:layout_height="80sp"
         android:id="@+id/t"
         android:src="@drawable/four"
         />
     <TextView 
         android:id="@+id/tv"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="设置"
+        android:layout_marginBottom="10dp"
         />
 
 </LinearLayout>

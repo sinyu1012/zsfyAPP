@@ -8,21 +8,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#ffffff"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+
         android:orientation="vertical">
 
         <RelativeLayout
             android:id="@+id/rl_touxiang"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.fyzs.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/profile_image1"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
-
                 android:src="@drawable/boy"
                 app:border_color="#ffffff"
                 app:border_width="1dp" />
@@ -52,7 +52,8 @@
             android:background="#dfdfdf" />
 
         <LinearLayout
-
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffff"
@@ -62,15 +63,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="姓名："
-                android:textSize="20dp" />
+                android:text="姓名"
+                android:textSize="18dp" />
 
             <EditText
+                android:hint="填写姓名"
                 android:id="@+id/ed_name"
+                android:background="@null"
+                android:layout_marginLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
@@ -79,6 +82,39 @@
             android:background="#dfdfdf" />
 
         <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系部"
+                android:textSize="18dp" />
+
+            <EditText
+                android:textSize="18sp"
+                android:hint="填写系部"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:id="@+id/ed_xibu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="#dfdfdf" />
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -87,15 +123,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="班级："
-                android:textSize="20dp" />
+                android:text="班级"
+                android:textSize="18dp" />
 
             <EditText
+                android:background="@null"
+                android:hint="填写班级"
+                android:layout_marginLeft="20dp"
                 android:id="@+id/ed_class"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
@@ -104,6 +142,38 @@
             android:background="#dfdfdf" />
 
         <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮箱"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:background="@null"
+                android:hint="填写邮箱，用于及时反馈"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="#dfdfdf" />
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -112,11 +182,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="性别："
-                android:textSize="20dp" />
+                android:text="性别"
+                android:textSize="18dp" />
 
             <RadioGroup
                 android:id="@+id/rg_sex"
+                android:layout_marginLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -133,8 +204,14 @@
                     android:layout_height="wrap_content"
                     android:text="女" />
             </RadioGroup>
-        </LinearLayout>
 
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="#dfdfdf" />
     </LinearLayout>
 
     <LinearLayout

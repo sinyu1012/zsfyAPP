@@ -9,10 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
-        android:paddingTop="10dp" >
+        android:paddingTop="10dp">
 
-        <com.fyzs.view.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        <com.fyzs.view.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/profile_image"
             android:layout_width="60dp"
             android:layout_height="60dp"

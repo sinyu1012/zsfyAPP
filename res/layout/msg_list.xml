@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="20dp"
+    android:background="@color/white"
     android:layout_marginRight="20dp"
     android:orientation="vertical" >
 
@@ -20,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         style="@style/Smile.TextView._Gray"
+
         android:text="本次更新新增了教师登录以及访客登录;同时优化了课表查询，将课表分成每一周显示;"
         android:textSize="15dp" />
 
